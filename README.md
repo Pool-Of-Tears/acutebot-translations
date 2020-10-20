@@ -1,7 +1,9 @@
 # Translation Requirements 📝
 
+![image](.assets/6bc76f5d97402f5be1d24d0d9ec1dc0c-01.jpeg)
+
  I'm more than happy to include your translations for acutebot. Please stick to these requirements for minimal errors!
- 
+
 ## What you need to do:
 
 - **The files that you'll need to use are .yaml files, these can be edited in any basic text editor. Notepad++ and Atom are recommended for desktops. If you happen to want to translate on an Android mobile device, check out [acode](https://play.google.com/store/apps/details?id=com.foxdebug.acodefree) editor.**
@@ -19,6 +21,3 @@
 <!-- > Why am I not using Crowdin or POEditor for this? -->
 
 ### Happy translating 🎉
-
-
-
