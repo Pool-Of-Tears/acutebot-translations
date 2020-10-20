@@ -1,16 +1,24 @@
-# Translation Guides
+# Translation Requirements 📝
 
-##### The files are .yaml files, they should be edible in every basic text editor, but Notepad ++ is a recommended if you are translating in phone you can use [acode](https://play.google.com/store/apps/details?id=com.foxdebug.acodefree) editor
+ I'm more than happy to include your translations for acutebot. Please stick to these requirements for minimal errors!
+ 
+## What you need to do:
 
-##### If you actually take on this challenge, you can find existing translations here.
+- **The files that you'll need to use are .yaml files, these can be edited in any basic text editor. Notepad++ and Atom are recommended for desktops. If you happen to want to translate on an Android mobile device, check out [acode](https://play.google.com/store/apps/details?id=com.foxdebug.acodefree) editor.**
 
-##### Once you download the base file (en is recommended, since its always the most updated file), rename it with the ISO 639-1 code of your language.
+- **The base file is `en.yaml`. Once downloaded, rename it with your language's [ISO 639-1 code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes).**
 
-##### The two letter one is recommended, Translate the parts in the quotation marks, and below <code>|</code> characters.
+- **The two letter one is recommended, translate the parts in the quotation marks `"..."` and everything below `|`. Refer [here](https://github.com/starry69/acutebot-translations/blob/f0d71ff2e71a8272357c0207b6223e0a24161798/Strings/en.yaml#L199) and [here](https://github.com/starry69/acutebot-translations/blob/f0d71ff2e71a8272357c0207b6223e0a24161798/Strings/en.yaml#L92)**
 
-##### In case you want to actually use quotation marks in your strings, escape them like that: \\" . 
+- **In the case of use quotation marks in Strings, escape them using a single backslash like this: `\"` .**
 
-##### Let the curly brackets stay and keep html tags like <code>&lt;b&gt;{}&lt;/b&gt;</code> untouched, since telegrams formatting is supported with html tags.
+- **Do not modify curly brackets and leave HTML tags like `<b>{}</b>` untouched. As acutebot is using Telegram's Bot API HTML formatting. Refer to their API Documentation [here](https://core.telegram.org/bots/api#html-style).**
 
-##### After you are finished, You can either make a pull request here or can contact me in [telegram](https://t.me/starryboi) with you translation file!
+- **After you are finished, you can either make a Pull Request in this repo or can contact me on [Telegram](https://t.me/starryboi) with you translation file!**
+
+<!-- > Why am I not using Crowdin or POEditor for this? -->
+
 ### Happy translating 🎉
+
+
+
