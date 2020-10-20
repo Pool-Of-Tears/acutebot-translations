@@ -12,5 +12,5 @@
 
 ### Let the curly brackets stay and keep html tags like <code>&lt;b&gt;{}&lt;/b&gt;</code> untouched, since telegrams formatting is supported with html tags.
 
-### After you are finished, You can either make a pull request here or can contact me in [telegram](t.me/starryboi) with you translation file!
+### After you are finished, You can either make a pull request here or can contact me in [telegram](https://t.me/starryboi) with you translation file!
 ## Happy translating 🎉
