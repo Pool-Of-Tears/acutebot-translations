@@ -1,0 +1,291 @@
+# Language name in their native
+language: "English 🇺🇲"
+# name of people(s) who worked on this translation
+authors: "@starryboi"
+
+# Contents
+movie_str: |
+ ️<b>{}</b> : {}
+ • Status : <pre>{}</pre>
+ • Genres : <pre>{}</pre>
+ • Languages : <pre>{}</pre>
+ • Runtime : <pre>{} minutes</pre>
+ • Budget : <pre>{}</pre>
+ • Revenue : <pre>{}</pre>
+ • Release Date : <pre>{}</pre>
+ • Average Rating : <pre>{}</pre>
+ • Popularity : <pre>{}</pre>
+
+ • OverView : <em>{}</em>
+
+tv_str: |
+ <b>{}</b>
+
+ • Created by : <pre>{}</pre>
+ • Genres : <pre>{}</pre>
+ • Languages : <pre>{}</pre>
+ • Episodes Runtime : <pre>{}</pre>
+ • First aired : <pre>{}</pre>
+ • Last aired : <pre>{}</pre>
+ • Status : <pre>{}</pre>
+ • Seasons : <pre>{}</pre>
+ • Total EPs : <pre>{}</pre>
+ • Average Rating : <pre>{}</pre>
+ • Production Company : <pre>{}</pre>
+
+ • OverView : <em>{}</em>
+
+anime_str: |
+ <b>{}</b> | <b>{}</b>
+
+ • Category : <pre>{}</pre>
+ • Type : <pre>{}</pre>
+ • Average Rating : <pre>{}</pre>
+ • Status : <pre>{}</pre>
+ • First aired : <pre>{}</pre>
+ • Last aired : <pre>{}</pre>
+ • Runtime : <pre>{} minutes</pre>
+ • No of episodes : <pre>{}</pre>
+
+ • Synopsis : <em>{}</em>
+
+manga_str: |
+ <b>{}</b> | <b>{}</b>
+ • Type : <pre>{}</pre>
+ • Average Rating : <pre>{}</pre>
+ • Status : <pre>{}</pre>
+ • First release : <pre>{}</pre>
+ • Last release : <pre>{}</pre>
+ • Volume count : <pre>{}</pre>
+ • No of chapters : <pre>{}</pre>
+ • Serialization : <pre>{}</pre>
+
+ • Synopsis : <em>{}</em>
+
+album_str: |
+ • <b>{}</b> by <b>{}</b>
+ • <b>Label</b> : {}
+ • <b>Copyrights</b> : {}
+ • <b>Popularity</b> : {} percent
+ • <b>Total tracks</b> : {}
+ • <b>Release date</b> : {}
+
+# Inline Content
+inline_str: |
+ • <b>Title</b> : {}
+ • <b>Release</b> : <pre>{}</pre>
+ • <b>Popularity</b> : <pre>{}</pre>
+ • <b>Language</b> : <pre>{}</pre>
+ • <b>Average Rating</b> : <pre>{}</pre>
+
+ • <b>OverView</b> : <em>{}</em>
+
+inline_anime_str: |
+ <b>{}</b> | <b>{}</b>
+ • Type : <pre>{}</pre>
+ • Average Rating : <pre>{}</pre>
+ • Status : <pre>{}</pre>
+
+ • <b>OverView</b> : <em>{}</em>
+
+# Start
+start_string: |
+ Hey {}, I'm {} and i can help you to get information about your favorite movies, tv and anime shows,
+ you can also download music & can view song lyrics using me! Just click the <i>help</i> button below to get started with list of possible commands...
+ 
+ You can also use me in inline mode to search for stuffs & your nowplaying track in any chat just type <pre>@{}</pre> in your message box and follow the instructions, or try on buttons below!
+
+ <i>and don't forget to smile, atleast once in a while :)</i>
+
+start_string_grp: "Hmmm?"
+
+
+# About
+about_str: |
+ I'm fully written in Python3 by <a href="tg://user?id=894380120">starry</a>, feel free to report him if you find any rough edge inside me.
+
+ <b>×</b> Bot version : <pre>{}</pre>
+ <b>×</b> Python version : <pre>{}</pre>
+ <b>×</b> Library version : <pre>PTB {}</pre>
+ <b>×</b> Movies & TV data : <pre>themoviedb.org</pre>
+ <b>×</b> Anime data from : <pre>kitsu.io</pre>
+ <b>×</b> Music data from : <pre>deezer.com</pre>
+ <b>×</b> Lyrics data from : <pre>genius.com</pre>
+
+ if you enjoyed using me & wanna support my creator hit the donate button below, since he's just a student so every little helps to pay for my server, and ofcourse boosting morale ;)
+
+# Help
+help_str: |
+ Please click on the buttons below to get documentations for the related functions.
+
+movie_help: |
+ <b>🗒️ Documentation for Movies & TV related functions:</b>
+
+ <b>×</b> /movies : Search for info about your favorite movies.
+
+ <b>×</b> /tvshows : Get information for your favotite TV shows.
+
+ <b>×</b> /recommend : Gives you movies & TV shows recommendations based on your likings!
+
+ <b>×</b> /trendingmv : Shows you trending movies of today of for this week.
+
+ <b>×</b> /trendingtv : Same as above but for TV shows!
+
+ <b>×</b> /collection : Get all movies in a collection, eg: The Avengers.
+
+anime_help: |
+ <b>🗒️ Documentation for Anime & Manga related functionsfunctions:</b>
+
+ <b>×</b> /anime : Search for info about your favorite anime titles.
+
+ <b>×</b> /manga : Get information about your favorite manga titles.
+
+ <b>×</b> /character : Search for anime characters information.
+
+ <b>×</b> /mywaifu : View or save your favorite waifu ;)
+
+ <b>×</b> /streamlink : Get streaming links for your favorite anime titles.
+
+music_help: |
+ <b>🗒️ Documentation for music & lyrics related functions:</b>
+
+ <b>×</b> /music : Download your favorite music in high resolution.
+
+ <b>×</b> /album : View and download tracks of your favorite albums.
+
+ <b>×</b> /lyrics : Search for lyrics of your favorite music.
+
+ <b>×</b> /songbylink &lt;spotifylink&gt; : Download songs directly using spotify url!
+
+ <b>×</b> /setquality : Set your preferred music quality to download.
+
+ <b>×</b> /nowplaying : Flex you currently or last played song in spotify.
+
+ <b>Notes</b> : You can also flex your nowplaying track in any chat by using me inline! just do <pre>@acutebot .nowplaying</pre>.
+
+misc_help: |
+ <b>🗒️ Documentation for some miscs command which don't fit anywhere!</b>
+
+ <b>×</b> /reddit : Gets you random memes scraped from popular subreddits.
+
+ <b>×</b> /subtitle : Download subtitles for your favorite movies.
+
+ <b>×</b> /watchlist : Get list of saved shows from your watchlist :D.
+
+ <b>×</b> /language : List all support language & select your preferred one.
+
+# Inline help
+movie_inline_hlp: "Click the button below to search for movies via inline."
+tv_inline_hlp: "Click the button below to search for TV shows via inline."
+anime_inline_hlp: "Click the button below to search for anime via inline."
+manga_inline_hlp: "Click the button below to search for manga titles via inline."
+sptnow_inline_hlp: "Click the button below to share your currently playing track."
+music_inline_hlp: "Click the button below to download your favourite music via inline."
+
+# Admin only command
+admin_only_cmd: "Sorry, only admins can use this command!"
+
+# Errors
+api_err: "Sorry, couldn't reach API at the moment :("
+not_found: "Sorry, couldn't find any results for the query :("
+invalidcat: "Hmmm.. maybe you've sent wrong category to look for, please try again!"
+keyerror: "Oops! something went wrong. Please try again :("
+error_handler: "Hey. I'm sorry to inform you that an error happened while I tried to handle your update. My developer(s) will be notified."
+
+# Cancel
+cancel: "Cancelled the current task!"
+
+# To search entry
+tosearch_movie: "Please reply with the movie title you wanna look for."
+tosearch_tv: "Please reply with the TV title you wanna look for."
+tosearch_anime: "Please reply with the anime title you want to look for."
+tosearch_manga: "Please reply with the manga name you wanna look for."
+tosearch_anime_stream: "Please reply with the anime name you want streaming links for."
+tosearch_anime_char: "Please reply with name of the character you wanna look for."
+
+# search results
+search_results: "🔍 Search results for <b>{}</b>:"
+
+# waiting msg for callback query
+query_wait: "Hold on..."
+
+# Favs or watchlists
+watchlist_str: "<b>➜ {}'s watchlist:</b>\n\n"
+nofavs: "Hmmm 🤔 looks like you don't have any title saved in your watchlist yet!"
+remfav: "Great work! Successfully cleared your watchlist :)"
+savedfav: "Added '{}' to your Watchlist!"
+not_allowed: "The one who issued the command shall only click this holy button."
+
+# Stats
+stats: |
+ <b>➜ Current Stats</b>;
+ ✦ Total users : {}
+ ✦ Total chats : {}
+
+# Greet
+greet: "Hey {}! Thank you for adding me in {} :)"
+
+# Lyrics
+songname: "Please tell me name of the song you want lyrics for."
+artistname: "Great! now tell me name of the artist for this song."
+searching_lyrics: "🔍 Looking for lyrics . . ."
+lyrics_not_found: "Sorry i couldn't find lyrics for that song."
+lyrics_too_big: "Lyrics of this song is too big for telegram, I'm sending it as a file..."
+
+# Music
+musicq: "Please choose your preferred music quality :)"
+curr_musicq: "Your current saved music quality is {}."
+no_curr_musicq: "You haven't saved your preferred music quality yet!"
+set_musicq: "Successfully saved {} as your preferred music quality!"
+musicname: "Please tell me name of the song you're looking for."
+download_music: "⏳ downloading... hold on!"
+upload_music: "⌛ uploading song please wait..."
+upload_music_mtp: "Hmmm.. file size is more than 50MBs uploading via MTproto, this might take around five mins.. please wait."
+music_cap: "➠ {}\n<b>ıllıllı</b> @acutebot <b>ıllıllı</b>"
+music_not_found: "Sorry i couldn't find that song :("
+invalid_song_url: "Sorry, but that's an invalid spotify link for the track!"
+song_usage: "Format: <pre>/songbylink</pre> &lt;spotifylink&gt;"
+album_tracks: "<b>List of all songs in the album, click on song's name to download it.</b>\n\n"
+
+# Subtitles
+tosearchsubs: "Please reply with the Movie | Anime name you want subs for."
+subs_str: "🏷 Subtitles for <b>{}</b>.\nClick on buttons below to download!"
+
+# Spotify
+spt_login: |
+ Hey {}, Please click the button below to login with your spotify account.
+ 
+ We respect user's privacy & will never store or use any of your data for wrong purpose!
+
+spt_login_pm: "Please contact me in PM to login with your spotify account, inorder to use this feature."
+spt_already_logged: "Looks like you've already logged-in!"
+
+# Anime-Stream
+anime_streaming_results: "search results for <b>{}</b>, Click on button below to get streaming links and start streaming..."
+anime_streaming_links_msg: "🏷 streaming links for <b>{}</b>:"
+anime_streamer_not_found: "Sorry looks like there is no streamer available for this title..."
+
+# Anime character
+saved_waifu: "Saved {} as your waifu >~<"
+no_waifu: "Looks like you don't have any waifu yet, however you can use /character to get one!"
+
+# Trending
+trending_time: "Please choose the time window to short out your search."
+trending_movie: "✨ Top ten trending movies <b>{}</b>."
+trending_tv: "✨ Top ten trending TV shows <b>{}</b>"
+
+# Recommendation
+recm_type: "Ok so tell me for which category you want recommendations for."
+recm_name: "Great! now just tell me name of any {} you've recently watched & liked, I'll try recommending you more stuffs similar to that one ;)"
+recm_results: "Since you've liked {} you might wanna checkout these titles too!"
+recm_not_found: "Sorry, looks like i couldn't guess anything similar for that title..."
+
+# Collection
+collection_entry: |
+ Please tell me the name of the movie collection you wanna look for.
+ Example: <pre>The Avengers</pre>.
+col_search_res: "Here is the list of all movie collections i found for your query."
+
+# languages
+curr_chat_lang: "Hey. Your current language is <b>{}</b>, select the one you want from the buttons below :)"
+set_chat_lang: "Great, {} it is from now on!"
