@@ -12,7 +12,7 @@
 
 - **Translate the parts in the quotation marks `"..."` and everything below `|`. Refer [here](https://github.com/starry69/acutebot-translations/blob/f0d71ff2e71a8272357c0207b6223e0a24161798/Strings/en.yaml#L199) and [here](https://github.com/starry69/acutebot-translations/blob/f0d71ff2e71a8272357c0207b6223e0a24161798/Strings/en.yaml#L92).**
 
-- **In the case of use quotation marks in Strings, escape them using a single backslash like this: `\"` .**
+- **In the case of using quotation marks in Strings, escape them using a single backslash like this: `\"` .**
 
 - **Do not modify curly brackets and leave HTML tags like `<b>{}</b>` untouched, as acutebot is using Telegram's Bot API HTML formatting. Refer to their API Documentation [here](https://core.telegram.org/bots/api#html-style).**
 
@@ -20,4 +20,4 @@
 
 <!-- > Why am I not using Crowdin or POEditor for this? -->
 
-### Happy translating 🎉
+## Happy translating 🎉
