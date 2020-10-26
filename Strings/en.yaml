@@ -93,7 +93,7 @@ start_string: |
  Hey {}, I'm {} and i can help you to get information about your favorite movies, tv and anime shows,
  you can also download music & can view song lyrics using me! Just click the <i>help</i> button below to get started with list of possible commands...
  
- You can also use me in inline mode to search for stuffs & your nowplaying track in any chat just type <pre>@{}</pre> in your message box and follow the instructions, or try on buttons below!
+ You can also use me in inline mode to search for stuffs & your nowplaying track in any chat, just type <pre>@{}</pre> in your message box and follow the instructions, or try on buttons below!
 
  <i>and don't forget to smile, atleast once in a while :)</i>
 
