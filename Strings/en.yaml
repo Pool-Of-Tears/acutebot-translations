@@ -6,6 +6,7 @@ authors: "@starryboi"
 # Contents
 movie_str: |
  ️<b>{}</b> : {}
+ 
  • Status : <pre>{}</pre>
  • Genres : <pre>{}</pre>
  • Languages : <pre>{}</pre>
@@ -51,6 +52,7 @@ anime_str: |
 
 manga_str: |
  <b>{}</b> | <b>{}</b>
+ 
  • Type : <pre>{}</pre>
  • Average Rating : <pre>{}</pre>
  • Status : <pre>{}</pre>
@@ -134,7 +136,7 @@ movie_help: |
  <b>×</b> /collection : Get all movies in a collection, eg: The Avengers.
 
 anime_help: |
- <b>🗒️ Documentation for Anime & Manga related functionsfunctions:</b>
+ <b>🗒️ Documentation for Anime & Manga related functions:</b>
 
  <b>×</b> /anime : Search for info about your favorite anime titles.
 
@@ -194,6 +196,7 @@ error_handler: "Hey. I'm sorry to inform you that an error happened while I trie
 
 # Cancel
 cancel: "Cancelled the current task!"
+cancel_inactive: "No active command to cancel.. 😴"
 
 # To search entry
 tosearch_movie: "Please reply with the movie title you wanna look for."
