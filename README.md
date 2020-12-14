@@ -1,6 +1,6 @@
 # Translation Requirements 📝
 
-![image](.assets/6bc76f5d97402f5be1d24d0d9ec1dc0c-01.jpeg)
+![logo](https://telegra.ph/file/292eb6f335bdb3b397806.jpg)
 
  I'm more than happy to include your translations for acutebot. Please stick to these requirements for minimal errors!
 
