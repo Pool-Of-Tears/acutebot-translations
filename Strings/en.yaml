@@ -296,7 +296,6 @@ trending_tv: "✨ Top ten trending TV shows <b>{}</b>"
 # Recommendation
 recm_type: "Ok so tell me for which category you want recommendations for."
 recm_name: "Great! now just tell me name of any {} you've recently watched & liked, I'll try recommending you more stuffs similar to that one ;)"
-recm_confirmation: "Do you mean ({}) ?"
 recm_results: "Since you've liked {} you might wanna checkout these titles too!"
 recm_not_found: "Sorry, looks like i couldn't guess anything similar for that title..."
 
