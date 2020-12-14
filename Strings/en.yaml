@@ -176,7 +176,9 @@ misc_help: |
 
  <b>×</b> /watchlist : Get list of saved shows from your watchlist :D.
 
- <b>×</b> /language : List all support language & select your preferred one.
+ <b>×</b> /remwatchlist : Remove shows you've watched already from your watchlist.
+
+ <b>×</b> /language : List all supported language & select your preferred one.
 
 # Inline help
 movie_inline_hlp: "Click the button below to search for movies via inline."
@@ -188,6 +190,9 @@ music_inline_hlp: "Click the button below to download your favourite music via i
 
 # Admin only command
 admin_only_cmd: "Sorry, only admins can use this command!"
+
+# confirm choices
+confirm_choices: "Did you mean <b><i>{}</i></b> ?"
 
 # Errors
 api_err: "Sorry, couldn't reach API at the moment :("
@@ -211,11 +216,19 @@ tosearch_anime_char: "Please reply with name of the character you wanna look for
 # search results
 search_results: "🔍 Search results for <b>{}</b>:"
 
-# waiting msg for callback query
+# callback query
 query_wait: "Hold on..."
+query_last_page: "Last page reached ^_^"
 
 # Favs or watchlists
 watchlist_str: "<b>➜ {}'s watchlist:</b>\n\n"
+remwatchlist_entry: "Please tell me the name of item you would like to remove from your watchlist, (few typos are OK)... i'll guess what you meant."
+remwatchlist_not_found: |
+ Sorry but i couldn't guess anything similar to that by looking at your watchlist, maybe check again if this title really exists inside your /watchlist ?
+remwatchlist_success: "Sucessfully removed <i>{}</i> from your watchlist!"
+remwatchlist_failed: |
+ Sorry! How about we try again?
+ Press: /remwatchlist
 nofavs: "Hmmm 🤔 looks like you don't have any title saved in your watchlist yet!"
 remfav: "Great work! Successfully cleared your watchlist :)"
 savedfav: "Added '{}' to your Watchlist!"
@@ -283,6 +296,7 @@ trending_tv: "✨ Top ten trending TV shows <b>{}</b>"
 # Recommendation
 recm_type: "Ok so tell me for which category you want recommendations for."
 recm_name: "Great! now just tell me name of any {} you've recently watched & liked, I'll try recommending you more stuffs similar to that one ;)"
+recm_confirmation: "Do you mean ({}) ?"
 recm_results: "Since you've liked {} you might wanna checkout these titles too!"
 recm_not_found: "Sorry, looks like i couldn't guess anything similar for that title..."
 
