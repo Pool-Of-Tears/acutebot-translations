@@ -185,6 +185,7 @@ movie_inline_hlp: "Click the button below to search for movies via inline."
 tv_inline_hlp: "Click the button below to search for TV shows via inline."
 anime_inline_hlp: "Click the button below to search for anime via inline."
 manga_inline_hlp: "Click the button below to search for manga titles via inline."
+watchlist_inline_hlp: "Click the button below to view & share your watchlist"
 sptnow_inline_hlp: "Click the button below to share your currently playing track."
 music_inline_hlp: "Click the button below to download your favourite music via inline."
 
@@ -296,7 +297,7 @@ trending_tv: "✨ Top ten trending TV shows <b>{}</b>"
 # Recommendation
 recm_type: "Ok so tell me for which category you want recommendations for."
 recm_name: "Great! now just tell me name of any {} you've recently watched & liked, I'll try recommending you more stuffs similar to that one ;)"
-recm_results: "Since you've liked {} you might wanna checkout these titles too!"
+recm_results: "Since you've liked {}, you might wanna checkout these titles too!"
 recm_not_found: "Sorry, looks like i couldn't guess anything similar for that title..."
 
 # Collection

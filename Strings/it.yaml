@@ -1,5 +1,5 @@
 # Language name in their native
-language: "italian"
+language: "Italiano 🇮🇹"
 # name of people(s) who worked on this translation
 authors: "@formula-spectre"
 
@@ -183,6 +183,7 @@ movie_inline_hlp: "Premi il pulsante sotto per cercare film in mod. inline."
 tv_inline_hlp: "Premi il pulsante sotto per cercare serie tv in mod. inline."
 anime_inline_hlp: "Premi il pulsante qui sotto per cercare anime in mod. inline"
 manga_inline_hlp: "Premi il pulsante qui sotto per cercare manga in mod. inline"
+watchlist_inline_hlp: "Fai clic sul pulsante in basso per visualizzare e condividere la tua lista di titoli."
 sptnow_inline_hlp: "Premi il pulsante qui sotto per condividere la canzone che stai riproducendo ora"
 music_inline_hlp: "Premi il pulsante qui sotto per scaricare la tua canzone preferita via inline"
 
@@ -214,7 +215,7 @@ tosearch_anime_char: "Per favore rispondi con il personaggio che vuoi cercare."
 # search results
 search_results: "🔍 Cerca risultati per <b>{}</b>:"
 
-# waiting msg for callback query
+# callback query
 query_wait: "Dammi un momento..."
 query_last_page: "Questa è l'ultima pagina ^_^"
 
