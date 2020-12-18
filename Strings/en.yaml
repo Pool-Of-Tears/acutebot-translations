@@ -7,60 +7,60 @@ authors: "@starryboi"
 movie_str: |
  ️<b>{}</b> : {}
  
- • Status : <pre>{}</pre>
- • Genres : <pre>{}</pre>
- • Languages : <pre>{}</pre>
- • Runtime : <pre>{} minutes</pre>
- • Budget : <pre>{}</pre>
- • Revenue : <pre>{}</pre>
- • Release Date : <pre>{}</pre>
- • Average Rating : <pre>{}</pre>
- • Popularity : <pre>{}</pre>
+ • Status : <code>{}</code>
+ • Genres : <code>{}</code>
+ • Languages : <code>{}</code>
+ • Runtime : <code>{} minutes</code>
+ • Budget : <code>{}</code>
+ • Revenue : <code>{}</code>
+ • Release Date : <code>{}</code>
+ • Average Rating : <code>{}</code>
+ • Popularity : <code>{}</code>
 
  • OverView : <em>{}</em>
 
 tv_str: |
  <b>{}</b>
 
- • Created by : <pre>{}</pre>
- • Genres : <pre>{}</pre>
- • Languages : <pre>{}</pre>
- • Episodes Runtime : <pre>{}</pre>
- • First aired : <pre>{}</pre>
- • Last aired : <pre>{}</pre>
- • Status : <pre>{}</pre>
- • Seasons : <pre>{}</pre>
- • Total EPs : <pre>{}</pre>
- • Average Rating : <pre>{}</pre>
- • Production Company : <pre>{}</pre>
+ • Created by : <code>{}</code>
+ • Genres : <code>{}</code>
+ • Languages : <code>{}</code>
+ • Episodes Runtime : <code>{}</code>
+ • First aired : <code>{}</code>
+ • Last aired : <code>{}</code>
+ • Status : <code>{}</code>
+ • Seasons : <code>{}</code>
+ • Total EPs : <code>{}</code>
+ • Average Rating : <code>{}</code>
+ • Production Company : <code>{}</code>
 
  • OverView : <em>{}</em>
 
 anime_str: |
  <b>{}</b> | <b>{}</b>
 
- • Category : <pre>{}</pre>
- • Type : <pre>{}</pre>
- • Average Rating : <pre>{}</pre>
- • Status : <pre>{}</pre>
- • First aired : <pre>{}</pre>
- • Last aired : <pre>{}</pre>
- • Runtime : <pre>{} minutes</pre>
- • No of episodes : <pre>{}</pre>
+ • Category : <code>{}</code>
+ • Type : <code>{}</code>
+ • Average Rating : <code>{}</code>
+ • Status : <code>{}</code>
+ • First aired : <code>{}</code>
+ • Last aired : <code>{}</code>
+ • Runtime : <code>{} minutes</code>
+ • No of episodes : <code>{}</code>
 
  • Synopsis : <em>{}</em>
 
 manga_str: |
  <b>{}</b> | <b>{}</b>
  
- • Type : <pre>{}</pre>
- • Average Rating : <pre>{}</pre>
- • Status : <pre>{}</pre>
- • First release : <pre>{}</pre>
- • Last release : <pre>{}</pre>
- • Volume count : <pre>{}</pre>
- • No of chapters : <pre>{}</pre>
- • Serialization : <pre>{}</pre>
+ • Type : <code>{}</code>
+ • Average Rating : <code>{}</code>
+ • Status : <code>{}</code>
+ • First release : <code>{}</code>
+ • Last release : <code>{}</code>
+ • Volume count : <code>{}</code>
+ • No of chapters : <code>{}</code>
+ • Serialization : <code>{}</code>
 
  • Synopsis : <em>{}</em>
 
@@ -75,18 +75,18 @@ album_str: |
 # Inline Content
 inline_str: |
  • <b>Title</b> : {}
- • <b>Release</b> : <pre>{}</pre>
- • <b>Popularity</b> : <pre>{}</pre>
- • <b>Language</b> : <pre>{}</pre>
- • <b>Average Rating</b> : <pre>{}</pre>
+ • <b>Release</b> : <code>{}</code>
+ • <b>Popularity</b> : <code>{}</code>
+ • <b>Language</b> : <code>{}</code>
+ • <b>Average Rating</b> : <code>{}</code>
 
  • <b>OverView</b> : <em>{}</em>
 
 inline_anime_str: |
  <b>{}</b> | <b>{}</b>
- • Type : <pre>{}</pre>
- • Average Rating : <pre>{}</pre>
- • Status : <pre>{}</pre>
+ • Type : <code>{}</code>
+ • Average Rating : <code>{}</code>
+ • Status : <code>{}</code>
 
  • <b>OverView</b> : <em>{}</em>
 
@@ -95,7 +95,7 @@ start_string: |
  Hey {}, I'm {} and i can help you to get information about your favorite movies, tv and anime shows,
  you can also download music & can view song lyrics using me! Just click the <i>help</i> button below to get started with list of possible commands...
  
- You can also use me in inline mode to search for stuffs & your nowplaying track in any chat, just type <pre>@{}</pre> in your message box and follow the instructions, or try on buttons below!
+ You can also use me in inline mode to search for stuffs & your nowplaying track in any chat, just type <code>@{}</code> in your message box and follow the instructions, or try on buttons below!
 
  <i>and don't forget to smile, atleast once in a while :)</i>
 
@@ -106,13 +106,13 @@ start_string_grp: "Hmmm?"
 about_str: |
  I'm fully written in Python3 by <a href="tg://user?id=894380120">starry</a>, feel free to report him if you find any rough edge inside me.
 
- <b>×</b> Bot version : <pre>{}</pre>
- <b>×</b> Python version : <pre>{}</pre>
- <b>×</b> Library version : <pre>PTB {}</pre>
- <b>×</b> Movies & TV data : <pre>themoviedb.org</pre>
- <b>×</b> Anime data from : <pre>kitsu.io</pre>
- <b>×</b> Music data from : <pre>deezer.com</pre>
- <b>×</b> Lyrics data from : <pre>genius.com</pre>
+ <b>×</b> Bot version : <code>{}</code>
+ <b>×</b> Python version : <code>{}</code>
+ <b>×</b> Library version : <code>PTB {}</code>
+ <b>×</b> Movies & TV data : <code>themoviedb.org</code>
+ <b>×</b> Anime data from : <code>kitsu.io</code>
+ <b>×</b> Music data from : <code>deezer.com</code>
+ <b>×</b> Lyrics data from : <code>genius.com</code>
 
  if you enjoyed using me & wanna support my creator hit the donate button below, since he's just a student so every little helps to pay for my server, and ofcourse boosting morale ;)
 
@@ -163,7 +163,7 @@ music_help: |
 
  <b>×</b> /nowplaying : Flex you currently or last played song in spotify.
 
- <b>Notes</b> : You can also flex your nowplaying track in any chat by using me inline! just do <pre>@acutebot .nowplaying</pre>.
+ <b>Notes</b> : You can also flex your nowplaying track in any chat by using me inline! just do <code>@acutebot .nowplaying</code>.
 
 misc_help: |
  <b>🗒️ Documentation for some miscs command which don't fit anywhere!</b>
@@ -264,7 +264,7 @@ upload_music_mtp: "Hmmm.. file size is more than 50MBs uploading via MTproto, th
 music_cap: "➠ {}\n<b>ıllıllı</b> @acutebot <b>ıllıllı</b>"
 music_not_found: "Sorry i couldn't find that song :("
 invalid_song_url: "Sorry, but that's an invalid spotify link for the track!"
-song_usage: "Format: <pre>/songbylink</pre> &lt;spotifylink&gt;"
+song_usage: "Format: <code>/songbylink</code> &lt;spotifylink&gt;"
 album_tracks: "<b>List of all songs in the album, click on song's name to download it.</b>\n\n"
 
 # Subtitles
@@ -303,7 +303,7 @@ recm_not_found: "Sorry, looks like i couldn't guess anything similar for that ti
 # Collection
 collection_entry: |
  Please tell me the name of the movie collection you wanna look for.
- Example: <pre>The Avengers</pre>.
+ Example: <code>The Avengers</code>.
 col_search_res: "Here is the list of all movie collections i found for your query."
 
 # languages
