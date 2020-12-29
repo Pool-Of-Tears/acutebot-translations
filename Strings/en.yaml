@@ -104,7 +104,7 @@ start_string_grp: "Hmmm?"
 
 # About
 about_str: |
- I'm fully written in Python3 by <a href="tg://user?id=894380120">starry</a>, feel free to report him if you find any rough edge inside me.
+ I'm fully written in Python3 by <a href="tg://user?id=894380120">starry</a>, feel free to report to him if you find any rough edge inside me.
 
  <b>×</b> Bot version : <code>{}</code>
  <b>×</b> Python version : <code>{}</code>
@@ -141,13 +141,31 @@ anime_help: |
  <b>×</b> /anime : Search for info about your favorite anime titles.
 
  <b>×</b> /manga : Get information about your favorite manga titles.
+ 
+ <b>×</b> /airing : View airing status of your favorite anime series!
 
  <b>×</b> /character : Search for anime characters information.
 
  <b>×</b> /mywaifu : View or save your favorite waifu ;)
 
  <b>×</b> /streamlink : Get streaming links for your favorite anime titles.
-
+ 
+news_help: |
+ <b>🗒️ Documentation for news feeds related functions:</b>
+ 
+ <b>×</b> /subscribe : Subscribe to the news feeds.
+ <b>×</b> /unsubscribe : Unsubscribe from the news feeds.
+ 
+ <b><em>Get up-to-date news coverage for things you love most! Here is the list of stuffs i can keep you updated with.</em></b>
+ 
+ • <em>Get latest movie news, rumors and reviews of every movie hitting theaters in <u>movie news</u> section.</em>
+ 
+ • <em>All the latest television news about the shows you love most in <u>tvshow news</u> section.</em>
+ 
+ • <em>Keep up with anime news and facts from your favorite anime series in <u> anime news</u> section.</em>
+ 
+ • <em>Get daily coverage of indie rock, hip-hop, electronic, pop, metal, and experimental music in <u>music news</u> section.</em>
+ 
 music_help: |
  <b>🗒️ Documentation for music & lyrics related functions:</b>
 
@@ -164,7 +182,7 @@ music_help: |
  <b>×</b> /nowplaying : Flex you currently or last played song in spotify.
 
  <b>Notes</b> : You can also flex your nowplaying track in any chat by using me inline! just do <code>@acutebot .nowplaying</code>.
-
+ 
 misc_help: |
  <b>🗒️ Documentation for some miscs command which don't fit anywhere!</b>
  
@@ -210,6 +228,7 @@ cancel_inactive: "No active command to cancel.. 😴"
 tosearch_movie: "Please reply with the movie title you wanna look for."
 tosearch_tv: "Please reply with the TV title you wanna look for."
 tosearch_anime: "Please reply with the anime title you want to look for."
+tosearch_airing_anime: "Please reply with the name of anime you want airing info for."
 tosearch_manga: "Please reply with the manga name you wanna look for."
 tosearch_anime_stream: "Please reply with the anime name you want streaming links for."
 tosearch_anime_char: "Please reply with name of the character you wanna look for."
@@ -249,7 +268,6 @@ songname: "Please tell me name of the song you want lyrics for."
 artistname: "Great! now tell me name of the artist for this song."
 searching_lyrics: "🔍 Looking for lyrics . . ."
 lyrics_not_found: "Sorry i couldn't find lyrics for that song."
-lyrics_too_big: "Lyrics of this song is too big for telegram, I'm sending it as a file..."
 
 # Music
 musicq: "Please choose your preferred music quality :)"
@@ -309,3 +327,11 @@ col_search_res: "Here is the list of all movie collections i found for your quer
 # languages
 curr_chat_lang: "Hey. Your current language is <b>{}</b>, select the one you want from the buttons below :)"
 set_chat_lang: "Great, {} it is from now on!"
+
+# RSS / news feeds
+rss_sub_entry: "Please choose feeds you would ike to subscribe :)"
+rss_sub_successful: "Successfully subscribed to {} news feeds."
+rss_already_subbed: "You're already subscribed to this feed!"
+no_rss_subs: "You aren't subscribed to any news feed to begin with!"
+rss_unsubscribe: "List of feeds you're currently subscribed to, click the button below to unsubscribe whatever feed you want :)"
+rss_unsubscribe_sucess: "Successfully unsubscribed to {} news feeds."

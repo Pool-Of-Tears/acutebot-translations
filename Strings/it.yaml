@@ -141,12 +141,18 @@ anime_help: |
  <b>×</b> /anime : Cerca informazioni su i tuoi anime preferiti.
 
  <b>×</b> /manga : Cerca informazioni su I tuoi mannga preferiti.
+ 
+ <b>×</b> /airing : Visualizza lo stato di messa in onda dei tuoi programmi anime preferiti.
 
  <b>×</b> /character : Cerca informazioni su dei personaggi anime.
 
  <b>×</b> /mywaifu : Guarda o salva immagini della tua waifu ;)
 
  <b>×</b> /streamlink : Trova link di streaming per i tuoi anime preferiti.
+
+# -----TODO-----
+# news_help:
+#---------------
 
 music_help: |
  <b>🗒️ come usare le funzioni riguardanti musica e testi:</b>
@@ -208,6 +214,7 @@ cancel_inactive: "nessuna attività da annullare.. 😴"
 tosearch_movie: "Per favore rispondi con il film che vuoi cercare."
 tosearch_tv: "Per favore rispondi con la serie TV che vuoi cercare."
 tosearch_anime: "Per favore rispondi con l'anime che vuoi cercare."
+# tosearch_airing_anime:
 tosearch_manga: "Per favore rispondi con il manga che vuoi cercare."
 tosearch_anime_stream: "Per favore rispondi con l'anime il quale ti servono link di streaming."
 tosearch_anime_char: "Per favore rispondi con il personaggio che vuoi cercare."
@@ -247,7 +254,6 @@ songname: "Per favore dimmi la canzone per cui vuoi il testo."
 artistname: "Bene! ora dimmi il nome dell'artista!"
 searching_lyrics: "🔍 cerco il testo. . ."
 lyrics_not_found: "Mi dispiace, ma non ho trovato il testo per questa canzone."
-lyrics_too_big: "Il testo è troppo grande per telegram, lo sto mandando come file..."
 
 # Music
 musicq: "Per favore scegli la qualità della musica :)"
@@ -307,3 +313,12 @@ col_search_res: "Ecco la lista di tutte le collezioni di film basato sulla tua r
 # languages
 curr_chat_lang: "Hey. la tua lingua corrente è <b>{}</b>, seleziona quella che vuoi dai pulsanti qui sotto :)"
 set_chat_lang: "Bene, {} è la tua lingua da ora!"
+
+# ---------------- TODO ---------------
+# RSS / news feeds
+# rss_sub_entry:
+# rss_sub_successful:
+# rss_already_subbed:
+# no_rss_subs:
+# rss_unsubscribe:
+# rss_unsubscribe_sucess:
