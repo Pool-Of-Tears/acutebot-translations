@@ -6,63 +6,63 @@ authors: "@formula-spectre"
 # Contents
 movie_str: |
  ️<b>{}</b> : {}
- 
- • Status : <code>{}</code>
- • Genres : <code>{}</code>
- • Languages : <code>{}</code>
- • Runtime : <code>{} minutes</code>
- • Budget : <code>{}</code>
- • Revenue : <code>{}</code>
- • Release Date : <code>{}</code>
- • Average Rating : <code>{}</code>
- • Popularity : <code>{}</code>
 
- • OverView : <em>{}</em>
+ • <b>Status</b> : {}
+ • <b>Genres</b> : {}
+ • <b>Languages</b> : {}
+ • <b>Runtime</b> : {} minutes
+ • <b>Budget</b> : {}
+ • <b>Revenue</b> : {}
+ • <b>Release Date</b> : {}
+ • <b>Average Rating</b> : {}
+ • <b>Popularity</b> : {}
+
+ • <b>OverView</b> : <em>{}</em>
 
 tv_str: |
  <b>{}</b>
 
- • Created by : <code>{}</code>
- • Genres : <code>{}</code>
- • Languages : <code>{}</code>
- • Episodes Runtime : <code>{}</code>
- • First aired : <code>{}</code>
- • Last aired : <code>{}</code>
- • Status : <code>{}</code>
- • Seasons : <code>{}</code>
- • Total EPs : <code>{}</code>
- • Average Rating : <code>{}</code>
- • Production Company : <code>{}</code>
+ • <b>Created by</b> : {}
+ • <b>Genres</b> : {}
+ • <b>Languages</b> : {}
+ • <b>Episodes Runtime</b> : {}
+ • <b>First aired</b> : {}
+ • <b>Last aired</b> : {}
+ • <b>Status</b> : {}
+ • <b>Seasons</b> : {}
+ • <b>Total EPs</b> : {}
+ • <b>Average Rating</b> : {}
+ • <b>Production Company</b> : {}
 
- • OverView : <em>{}</em>
+ • <b>OverView</b> : <em>{}</em>
 
 anime_str: |
  <b>{}</b> | <b>{}</b>
 
- • Category : <code>{}</code>
- • Type : <code>{}</code>
- • Average Rating : <code>{}</code>
- • Status : <code>{}</code>
- • First aired : <code>{}</code>
- • Last aired : <code>{}</code>
- • Runtime : <code>{} minutes</code>
- • No of episodes : <code>{}</code>
+ • <b>Category</b> : {}
+ • <b>Type</b> : {}
+ • <b>Average Rating</b> : {}
+ • <b>Status</b> : {}
+ • <b>First aired</b> : {}
+ • <b>Last aired</b> : {}
+ • <b>Runtime</b> : {}
+ • <b>No of episodes</b> : {}
 
- • Synopsis : <em>{}</em>
+ • <b>Synopsis</b> : <em>{}</em>
 
 manga_str: |
  <b>{}</b> | <b>{}</b>
- 
- • Type : <code>{}</code>
- • Average Rating : <code>{}</code>
- • Status : <code>{}</code>
- • First release : <code>{}</code>
- • Last release : <code>{}</code>
- • Volume count : <code>{}</code>
- • No of chapters : <code>{}</code>
- • Serialization : <code>{}</code>
 
- • Synopsis : <em>{}</em>
+ • <b>Type</b> : {}
+ • <b>Average Rating</b> : {}
+ • <b>Status</b> : {}
+ • <b>First release</b> : {}
+ • <b>Last release</b> : {}
+ • <b>Volume count</b> : {}
+ • <b>No of chapters</b> : {}
+ • <b>Genres</b> : {}
+
+ • <b>Synopsis</b> : <em>{}</em>
 
 album_str: |
  • <b>{}</b> by <b>{}</b>
@@ -75,18 +75,18 @@ album_str: |
 # Inline Content
 inline_str: |
  • <b>Title</b> : {}
- • <b>Release</b> : <code>{}</code>
- • <b>Popularity</b> : <code>{}</code>
- • <b>Language</b> : <code>{}</code>
- • <b>Average Rating</b> : <code>{}</code>
+ • <b>Release</b> : {}
+ • <b>Popularity</b> : {}
+ • <b>Language</b> : {}
+ • <b>Average Rating</b> : {}
 
  • <b>OverView</b> : <em>{}</em>
 
 inline_anime_str: |
  <b>{}</b> | <b>{}</b>
- • Type : <code>{}</code>
- • Average Rating : <code>{}</code>
- • Status : <code>{}</code>
+ • <b>Type</b> : {}
+ • <b>Average Rating</b> : {}
+ • <b>Status</b> : {}
 
  • <b>OverView</b> : <em>{}</em>
 
@@ -95,7 +95,7 @@ start_string: |
  Hey {}, sono {} e ti posso aiutare ad ottenere informazioni sui tuoi film, anime e serie tv preferite.
  puoi anche usarmi per scaricare canzoni e vedere i loro testi! devi solo cliccare il pulsate <i>help</i> per iniziare con una lista dei possibili comandi da dare...
 
- puoi anche usarmi in modalità \"in-line\", per cercare quello che ti serve o vedere cosa stai riproducendo in qualsiasi chat, ti basta solo scrivere <code>@{}</code> qui e seguire le istruzioni, oppure prova i pulsanti qui sotto! 
+ puoi anche usarmi in modalità \"in-line\", per cercare quello che ti serve o vedere cosa stai riproducendo in qualsiasi chat, ti basta solo scrivere <code>@{}</code> qui e seguire le istruzioni, oppure prova i pulsanti qui sotto!
 
  <i>e non ti dimenticare di sorridere almeno una volta! :)</i>
 
@@ -110,7 +110,7 @@ about_str: |
  <b>×</b> Python version : <code>{}</code>
  <b>×</b> Library version : <code>PTB {}</code>
  <b>×</b> Movies & TV data : <code>themoviedb.org</code>
- <b>×</b> Anime data from : <code>kitsu.io</code>
+ <b>×</b> Anime data from : <code>anilist.co</code>
  <b>×</b> Music data from : <code>deezer.com</code>
  <b>×</b> Lyrics data from : <code>genius.com</code>
 
@@ -141,7 +141,7 @@ anime_help: |
  <b>×</b> /anime : Cerca informazioni su i tuoi anime preferiti.
 
  <b>×</b> /manga : Cerca informazioni su I tuoi mannga preferiti.
- 
+
  <b>×</b> /airing : Visualizza lo stato di messa in onda dei tuoi programmi anime preferiti.
 
  <b>×</b> /character : Cerca informazioni su dei personaggi anime.
@@ -173,7 +173,7 @@ music_help: |
 
 misc_help: |
  <b>🗒️ alcuni comandi che non hanno una categoria precisa!</b>
- 
+
   <b>×</b> /squote : Ottieni citazioni casuali di MCU e DCU SuperHero dalla raccolta selezionata.
 
  <b>×</b> /reddit : Scarica i tuoi memini rubati da subreddit popolari.
@@ -278,7 +278,7 @@ subs_str: "🏷 Sottotitoli per <b>{}</b>.\nPremi il pulsate per scaricarli!"
 # Spotify
 spt_login: |
  Hey {}, Per favore cliica il pulsante qui sotto per loggarti con l'account spotify.
- 
+
  Rispettiamo la privacy dell'utente, e per questa non conserviamo nessun tuo dato !
 
 spt_login_pm: "Per favore contattami in modo provato per loggarti con il tuo account spotify per usare questa funzione"

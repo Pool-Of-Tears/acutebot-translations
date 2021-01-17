@@ -6,63 +6,63 @@ authors: "@starryboi"
 # Contents
 movie_str: |
  ️<b>{}</b> : {}
- 
- • Status : <code>{}</code>
- • Genres : <code>{}</code>
- • Languages : <code>{}</code>
- • Runtime : <code>{} minutes</code>
- • Budget : <code>{}</code>
- • Revenue : <code>{}</code>
- • Release Date : <code>{}</code>
- • Average Rating : <code>{}</code>
- • Popularity : <code>{}</code>
 
- • OverView : <em>{}</em>
+ • <b>Status</b> : {}
+ • <b>Genres</b> : {}
+ • <b>Languages</b> : {}
+ • <b>Runtime</b> : {} minutes
+ • <b>Budget</b> : {}
+ • <b>Revenue</b> : {}
+ • <b>Release Date</b> : {}
+ • <b>Average Rating</b> : {}
+ • <b>Popularity</b> : {}
+
+ • <b>OverView</b> : <em>{}</em>
 
 tv_str: |
  <b>{}</b>
 
- • Created by : <code>{}</code>
- • Genres : <code>{}</code>
- • Languages : <code>{}</code>
- • Episodes Runtime : <code>{}</code>
- • First aired : <code>{}</code>
- • Last aired : <code>{}</code>
- • Status : <code>{}</code>
- • Seasons : <code>{}</code>
- • Total EPs : <code>{}</code>
- • Average Rating : <code>{}</code>
- • Production Company : <code>{}</code>
+ • <b>Created by</b> : {}
+ • <b>Genres</b> : {}
+ • <b>Languages</b> : {}
+ • <b>Episodes Runtime</b> : {}
+ • <b>First aired</b> : {}
+ • <b>Last aired</b> : {}
+ • <b>Status</b> : {}
+ • <b>Seasons</b> : {}
+ • <b>Total EPs</b> : {}
+ • <b>Average Rating</b> : {}
+ • <b>Production Company</b> : {}
 
- • OverView : <em>{}</em>
+ • <b>OverView</b> : <em>{}</em>
 
 anime_str: |
  <b>{}</b> | <b>{}</b>
 
- • Category : <code>{}</code>
- • Type : <code>{}</code>
- • Average Rating : <code>{}</code>
- • Status : <code>{}</code>
- • First aired : <code>{}</code>
- • Last aired : <code>{}</code>
- • Runtime : <code>{} minutes</code>
- • No of episodes : <code>{}</code>
+ • <b>Category</b> : {}
+ • <b>Type</b> : {}
+ • <b>Average Rating</b> : {}
+ • <b>Status</b> : {}
+ • <b>First aired</b> : {}
+ • <b>Last aired</b> : {}
+ • <b>Runtime</b> : {}
+ • <b>No of episodes</b> : {}
 
- • Synopsis : <em>{}</em>
+ • <b>Synopsis</b> : <em>{}</em>
 
 manga_str: |
  <b>{}</b> | <b>{}</b>
- 
- • Type : <code>{}</code>
- • Average Rating : <code>{}</code>
- • Status : <code>{}</code>
- • First release : <code>{}</code>
- • Last release : <code>{}</code>
- • Volume count : <code>{}</code>
- • No of chapters : <code>{}</code>
- • Serialization : <code>{}</code>
 
- • Synopsis : <em>{}</em>
+ • <b>Type</b> : {}
+ • <b>Average Rating</b> : {}
+ • <b>Status</b> : {}
+ • <b>First release</b> : {}
+ • <b>Last release</b> : {}
+ • <b>Volume count</b> : {}
+ • <b>No of chapters</b> : {}
+ • <b>Genres</b> : {}
+
+ • <b>Synopsis</b> : <em>{}</em>
 
 album_str: |
  • <b>{}</b> by <b>{}</b>
@@ -75,18 +75,18 @@ album_str: |
 # Inline Content
 inline_str: |
  • <b>Title</b> : {}
- • <b>Release</b> : <code>{}</code>
- • <b>Popularity</b> : <code>{}</code>
- • <b>Language</b> : <code>{}</code>
- • <b>Average Rating</b> : <code>{}</code>
+ • <b>Release</b> : {}
+ • <b>Popularity</b> : {}
+ • <b>Language</b> : {}
+ • <b>Average Rating</b> : {}
 
  • <b>OverView</b> : <em>{}</em>
 
 inline_anime_str: |
  <b>{}</b> | <b>{}</b>
- • Type : <code>{}</code>
- • Average Rating : <code>{}</code>
- • Status : <code>{}</code>
+ • <b>Type</b> : {}
+ • <b>Average Rating</b> : {}
+ • <b>Status</b> : {}
 
  • <b>OverView</b> : <em>{}</em>
 
@@ -94,7 +94,7 @@ inline_anime_str: |
 start_string: |
  Hey {}, I'm {} and i can help you to get information about your favorite movies, tv and anime shows,
  you can also download music & can view song lyrics using me! Just click the <i>help</i> button below to get started with list of possible commands...
- 
+
  You can also use me in inline mode to search for stuffs & your nowplaying track in any chat, just type <code>@{}</code> in your message box and follow the instructions, or try on buttons below!
 
  <i>and don't forget to smile, atleast once in a while :)</i>
@@ -110,7 +110,7 @@ about_str: |
  <b>×</b> Python version : <code>{}</code>
  <b>×</b> Library version : <code>PTB {}</code>
  <b>×</b> Movies & TV data : <code>themoviedb.org</code>
- <b>×</b> Anime data from : <code>kitsu.io</code>
+ <b>×</b> Anime data from : <code>anilist.co</code>
  <b>×</b> Music data from : <code>deezer.com</code>
  <b>×</b> Lyrics data from : <code>genius.com</code>
 
@@ -141,7 +141,7 @@ anime_help: |
  <b>×</b> /anime : Search for info about your favorite anime titles.
 
  <b>×</b> /manga : Get information about your favorite manga titles.
- 
+
  <b>×</b> /airing : View airing status of your favorite anime series!
 
  <b>×</b> /character : Search for anime characters information.
@@ -149,23 +149,23 @@ anime_help: |
  <b>×</b> /mywaifu : View or save your favorite waifu ;)
 
  <b>×</b> /streamlink : Get streaming links for your favorite anime titles.
- 
+
 news_help: |
  <b>🗒️ Documentation for news feeds related functions:</b>
- 
+
  <b>×</b> /subscribe : Subscribe to the news feeds.
  <b>×</b> /unsubscribe : Unsubscribe from the news feeds.
- 
+
  <b><em>Get up-to-date news coverage for things you love most! Here is the list of stuffs i can keep you updated with.</em></b>
- 
+
  • <em>Get latest movie news, rumors and reviews of every movie hitting theaters in <u>movie news</u> section.</em>
- 
+
  • <em>All the latest television news about the shows you love most in <u>tvshow news</u> section.</em>
- 
+
  • <em>Keep up with anime news and facts from your favorite anime series in <u> anime news</u> section.</em>
- 
+
  • <em>Get daily coverage of indie rock, hip-hop, electronic, pop, metal, and experimental music in <u>music news</u> section.</em>
- 
+
 music_help: |
  <b>🗒️ Documentation for music & lyrics related functions:</b>
 
@@ -182,10 +182,10 @@ music_help: |
  <b>×</b> /nowplaying : Flex you currently or last played song in spotify.
 
  <b>Notes</b> : You can also flex your nowplaying track in any chat by using me inline! just do <code>@acutebot .nowplaying</code>.
- 
+
 misc_help: |
  <b>🗒️ Documentation for some miscs command which don't fit anywhere!</b>
- 
+
  <b>×</b> /squote : Get random MCU & DCU SuperHero's quotes from handpicked collection.
 
  <b>×</b> /reddit : Gets you random memes scraped from popular subreddits.
@@ -292,7 +292,7 @@ subs_str: "🏷 Subtitles for <b>{}</b>.\nClick on buttons below to download!"
 # Spotify
 spt_login: |
  Hey {}, Please click the button below to login with your spotify account.
- 
+
  We respect user's privacy & will never store or use any of your data for wrong purpose!
 
 spt_login_pm: "Please contact me in PM to login with your spotify account, inorder to use this feature."
