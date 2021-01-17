@@ -39,13 +39,13 @@ tv_str: |
 anime_str: |
  <b>{}</b> | <b>{}</b>
 
- • <b>Category</b> : {}
+ • <b>Genres</b> : {}
  • <b>Type</b> : {}
  • <b>Average Rating</b> : {}
  • <b>Status</b> : {}
  • <b>First aired</b> : {}
  • <b>Last aired</b> : {}
- • <b>Runtime</b> : {}
+ • <b>Runtime</b> : {} minutes
  • <b>No of episodes</b> : {}
 
  • <b>Synopsis</b> : <em>{}</em>
