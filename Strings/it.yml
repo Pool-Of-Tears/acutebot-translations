@@ -1,0 +1,260 @@
+# Language name in their native
+language: "Italiano 🇮🇹"
+# name of people(s) who worked on this translation
+authors: "@formula-spectre"
+# Contents
+movie_str: |
+  ️<b>{}</b> : {}
+
+  ‣ <b>Status</b> : {}
+  ‣ <b>Genres</b> : {}
+  ‣ <b>Languages</b> : {}
+  ‣ <b>Runtime</b> : {} minutes
+  ‣ <b>Budget</b> : {}
+  ‣ <b>Revenue</b> : {}
+  ‣ <b>Release Date</b> : {}
+  ‣ <b>Average Rating</b> : {}
+  ‣ <b>Popularity</b> : {}
+
+  ‣ <b>OverView</b> : <em>{}</em>
+tv_str: |
+  <b>{}</b>
+
+  ‣ <b>Created by</b> : {}
+  ‣ <b>Genres</b> : {}
+  ‣ <b>Languages</b> : {}
+  ‣ <b>Episodes Runtime</b> : {}
+  ‣ <b>First aired</b> : {}
+  ‣ <b>Last aired</b> : {}
+  ‣ <b>Status</b> : {}
+  ‣ <b>Seasons</b> : {}
+  ‣ <b>Total EPs</b> : {}
+  ‣ <b>Average Rating</b> : {}
+  ‣ <b>Production Company</b> : {}
+
+  ‣ <b>OverView</b> : <em>{}</em>
+anime_str: |
+  <b>{}</b> | <b>{}</b>
+
+  ‣ <b>Genres</b> : {}
+  ‣ <b>Type</b> : {}
+  ‣ <b>Average Rating</b> : {}
+  ‣ <b>Status</b> : {}
+  ‣ <b>First aired</b> : {}
+  ‣ <b>Last aired</b> : {}
+  ‣ <b>Runtime</b> : {} minutes
+  ‣ <b>No of episodes</b> : {}
+
+  ‣ <b>Synopsis</b> : <em>{}</em>
+manga_str: |
+  <b>{}</b> | <b>{}</b>
+
+  ‣ <b>Type</b> : {}
+  ‣ <b>Average Rating</b> : {}
+  ‣ <b>Status</b> : {}
+  ‣ <b>First release</b> : {}
+  ‣ <b>Last release</b> : {}
+  ‣ <b>Volume count</b> : {}
+  ‣ <b>No of chapters</b> : {}
+  ‣ <b>Genres</b> : {}
+
+  ‣ <b>Synopsis</b> : <em>{}</em>
+# Inline Content
+inline_str: |
+  ‣ <b>Title</b> : {}
+  ‣ <b>Release</b> : {}
+  ‣ <b>Popularity</b> : {}
+  ‣ <b>Language</b> : {}
+  ‣ <b>Average Rating</b> : {}
+
+  ‣ <b>OverView</b> : <em>{}</em>
+inline_anime_str: |
+  <b>{}</b> | <b>{}</b>
+  ‣ <b>Type</b> : {}
+  ‣ <b>Average Rating</b> : {}
+  ‣ <b>Status</b> : {}
+
+  ‣ <b>OverView</b> : <em>{}</em>
+# Start
+start_string: |
+  Hey {}, sono {} e ti posso aiutare ad ottenere informazioni sui tuoi film, anime e serie tv preferite.
+  puoi anche usarmi per scaricare canzoni e vedere i loro testi! devi solo cliccare il pulsate <i>help</i> per iniziare con una lista dei possibili comandi da dare...
+
+  puoi anche usarmi in modalità \"in-line\", per cercare quello che ti serve o vedere cosa stai riproducendo in qualsiasi chat, ti basta solo scrivere <code>@{}</code> qui e seguire le istruzioni, oppure prova i pulsanti qui sotto!
+
+  <i>e non ti dimenticare di sorridere almeno una volta! :)</i>
+start_string_grp: "Hmmm?"
+# About
+about_str: |
+  sono completamente scritto in Python3 da <a href="tg://user?id=894380120">starry</a>, sentiti libero di aiutarlo nel caso trovi qualche imperfezione.
+
+  <b>‣</b> Bot version : <code>{}</code>
+  <b>‣</b> Python version : <code>{}</code>
+  <b>‣</b> Library version : <code>PTB {}</code>
+  <b>‣</b> Movies & TV data : <code>themoviedb.org</code>
+  <b>‣</b> Anime data from : <code>anilist.co</code>
+  <b>‣</b> Lyrics data from : <code>genius.com</code>
+
+  se ti piace quello che faccio e vuoi supportare il creatore, tocca il pulsante dona qui sotto, siccome lui è solo uno studente e ha bisogno di pagare per il server su cui sono hostato, e ovviamente anche per aumentare il suo morale ;)
+# Help
+help_str: |
+  per favore clicca su uno dei pulsanti qui sotto per vedere che cosa fanno.
+movie_help: |
+  <b>🗒️ come usare le funzioni riguardanti Film e Serie TV:</b>
+
+  <b>‣</b> /movies : cerca informazioni sui tuoi film preferiti.
+
+  <b>‣</b> /tvshows : cerca informazioni per le tue serie TV preferite.
+
+  <b>‣</b> /recommend : Raccomandazioni di Serie TV/film basati sui tuoi gusti!
+
+  <b>‣</b> /trendingmv : Mostrare i film in tendenza di oggi o di questa settimana.
+
+  <b>‣</b> /trendingtv : come sopra ma per serie TV!
+
+  <b>‣</b> /collection : raccogli i tuoi film visti, eg: The Avengers.
+anime_help: |
+  <b>🗒️ come usare le funzioni riguardanti Anime:</b>
+
+  <b>‣</b> /anime : Cerca informazioni su i tuoi anime preferiti.
+
+  <b>‣</b> /manga : Cerca informazioni su I tuoi mannga preferiti.
+
+  <b>‣</b> /airing : Visualizza lo stato di messa in onda dei tuoi programmi anime preferiti.
+
+  <b>‣</b> /schedule : ottenere il programma di messa in onda dell'anime per tutta questa settimana.
+
+  <b>‣</b> /character : Cerca informazioni su dei personaggi anime.
+
+  <b>‣</b> /mywaifu : Guarda o salva immagini della tua waifu ;)
+
+  <b>‣</b> /fillers : Ottieni un elenco di episodi di riempimento per un determinato anime.
+
+  <b>‣</b> /streamlink : Trova link di streaming per i tuoi anime preferiti.
+news_help: |
+
+music_help: |
+  <b>🗒️ come usare le funzioni riguardanti musica e testi:</b>
+
+  <b>‣</b> /lyrics : Cerca il testo della tua canzone preferita.
+
+  <b>‣</b> /nowplaying : Flexa la cosa stai riproducendo (o l'ultima canzone riprodotta) da spotify
+
+  <b>Notes</b> : Puoi anche flexare la tua riproduzinoe attuale in qualsiasi chat con la modalità inline! ti basta scrivere <code>@acutebot .nowplaying</code>.
+misc_help: |
+  <b>🗒️ alcuni comandi che non hanno una categoria precisa!</b>
+
+  <b>‣</b> /mquote : Ottieni fantastiche citazioni di film di supereroi.
+
+  <b>‣</b> /aquote : Come sopra ma per citazioni relative agli anime.
+
+  <b>‣</b> /reddit : Scarica i tuoi memini rubati da subreddit popolari.
+
+  <b>‣</b> /subtitle : Download sottotitoli per i tuoi film.
+
+  <b>‣</b> /watchlist : Elenca la lista di serie TV salvata dalla tua watchlist :D
+
+  <b>‣</b> /language : Elenca le lingue suppportate e seleziona la tua preferita.
+# Inline help
+movie_inline_hlp: "Premi il pulsante sotto per cercare film in mod. inline."
+tv_inline_hlp: "Premi il pulsante sotto per cercare serie tv in mod. inline."
+anime_inline_hlp: "Premi il pulsante qui sotto per cercare anime in mod. inline"
+manga_inline_hlp: "Premi il pulsante qui sotto per cercare manga in mod. inline"
+watchlist_inline_hlp: "Fai clic sul pulsante in basso per visualizzare e condividere la tua lista di titoli."
+sptnow_inline_hlp: "Premi il pulsante qui sotto per condividere la canzone che stai riproducendo ora"
+music_inline_hlp: "Premi il pulsante qui sotto per scaricare la tua canzone preferita via inline"
+filler_inline_hlp: ""
+# Admin only command
+admin_only_cmd: "Mi dispiace,ma solo gli amministratori possono usare questo comando"
+# confirm choices
+confirm_choices: "Intendevi <b><i>{}</i></b> ?"
+# Errors
+api_err: "Mi dispiace, ma non riesco raggiungere l'API in questo momento :("
+not_found: "Mi dispiace, non riesco a trovare nulla che corrisponde a cosa hai cercato :("
+invalidcat: "Hmmm.. magari hai selezionato la categoria sbagliata, per favore riprova! "
+keyerror: "Oops! qualcosa è andato storto, per favore riprova!"
+error_handler: "Hey. Mi duole informarti che c'è stato un errore mentre cercavo di interfacciarmi con l'aggiornamento. Il mio sviluppatore riceverà una notifica."
+# Cancel
+cancel: "L'attività attuale è stata annullata!"
+cancel_inactive: "nessuna attività da annullare.. 😴"
+# To search entry
+tosearch_movie: "Per favore rispondi con il film che vuoi cercare."
+tosearch_tv: "Per favore rispondi con la serie TV che vuoi cercare."
+tosearch_anime: "Per favore rispondi con l'anime che vuoi cercare."
+tosearch_airing_anime: ""
+tosearch_manga: "Per favore rispondi con il manga che vuoi cercare."
+tosearch_anime_stream: "Per favore rispondi con l'anime il quale ti servono link di streaming."
+tosearch_anime_char: "Per favore rispondi con il personaggio che vuoi cercare."
+# search results
+search_results: "🔍 Cerca risultati per <b>{}</b>:"
+# callback query
+query_wait: "Dammi un momento..."
+query_last_page: "Questa è l'ultima pagina ^_^"
+not_allowed: "Colui che ha dato il comando dovrà solo premere questo pulsante sacro."
+# Favs or watchlists
+watchlist_str: "<b>la watchlist di {}:</b>\n\n"
+remwatchlist_select: ""
+rem_all_watchlist_confirm: ""
+remwatchlist_success: "<i>{}</i> rimosso con successo dalla tua lista di titoli!"
+nofavs: "Hmmm 🤔 Non hai ancora salvato nulla nella tua watchlist!"
+remfav: "Successo! la tua watchlist è stata ripulita :)"
+savedfav: "Aggiunto '{}' alla tua Watchlist!"
+# Greet
+greet: "Hey {}! grazie per avvermi aggiunto in {} :)"
+# Lyrics
+songname: "Per favore dimmi la canzone per cui vuoi il testo."
+artistname: "Bene! ora dimmi il nome dell'artista!"
+searching_lyrics: "🔍 cerco il testo. . ."
+lyrics_not_found: "Mi dispiace, ma non ho trovato il testo per questa canzone."
+# Subtitles
+tosearchsubs: "Per favore, rispondi con il film/anime il quale vuoi i sottotitoli"
+subs_str: "🏷 Sottotitoli per <b>{}</b>.\nPremi il pulsate per scaricarli!"
+# Spotify
+spt_login: |
+  Hey {}, Per favore cliica il pulsante qui sotto per loggarti con l'account spotify.
+
+  Rispettiamo la privacy dell'utente, e per questa non conserviamo nessun tuo dato !
+spt_login_pm: "Per favore contattami in modo provato per loggarti con il tuo account spotify per usare questa funzione"
+spt_already_logged: "Sembra che sei già entrato con il tuo account di spotify!"
+# Anime-Stream
+anime_streaming_results: "Risultati per <b>{}</b>, Premi il pulsate sotto per iniziare a streammare.."
+anime_streaming_links_msg: "🏷 link di streaming per <b>{}</b>:"
+anime_streamer_not_found: "Mi dispiace, ma sembra che che ono ci siano siti di streaming per questo titolo.."
+# Anime character
+saved_waifu: "salvato/a {} come la tua waifu >~<"
+no_waifu: "Sembra che tu non hai ancora una waifu, ma puoi trovarla usando /charter!"
+# Trending
+trending_time: "Per favore seleziona la finestra di tempo per la tua ricerca:"
+trending_movie: "✨ Top ten film in tendenza <b>{}</b>."
+trending_tv: "✨ Top dieci serie TV in tendenza <b>{}</b>"
+# Recommendation
+recm_type: "OK dimmi per quale categoria vuoi dei suggerimenti."
+recm_name: "Bene! Ora dimmi il nome di qualsiasi {} hai guardato recentemente che ti è piaciuto, e proverò a consigliarti titoli simili ;)"
+recm_results: "Siccome ti è piaciuto {} penso di piaceranno anche questi titoli!"
+recm_not_found: "Mi dispiace, ma sembra che non ti possa suggerire niente di simile..."
+# Collection
+collection_entry: |
+  Per favore dimmi il nome della serie di film che stai cercando.
+  Example: <code>The Avengers</code>.
+col_search_res: "Ecco la lista di tutte le collezioni di film basato sulla tua ricerca."
+# languages
+curr_chat_lang: "Hey. la tua lingua corrente è <b>{}</b>, seleziona quella che vuoi dai pulsanti qui sotto :)"
+set_chat_lang: "Bene, {} è la tua lingua da ora!"
+# RSS / news feeds
+rss_sub_entry: ""
+rss_sub_successful: ""
+rss_already_subbed: ""
+no_rss_subs: ""
+rss_unsubscribe: ""
+rss_unsubscribe_sucess: ""
+spt_not_listening_anything: ""
+# anime schedule
+schedule_entry: ""
+schedule_info: ""
+# conversation timeout
+conv_timeout: ""
+# anime list character
+list_character_anime: ""
+anime_characters_not_found: ""
+# anime fillers
+filler_inline_message: ""

@@ -4,8 +4,6 @@
 
  I'm more than happy to include your translations for acutebot. Please stick to these requirements for minimal errors!
 
-### Note: This repository is now depreciated, acutebot's translations now lives at [POEditor](https://poeditor.com/join/project?hash=wNKyCl84tR).
-
 ## What you need to do:
 
 - **The files that you'll need to use are .yaml files, these can be edited in any basic text editor. Notepad++ and Atom are recommended for desktops. If you happen to want to translate on an Android mobile device, check out [acode](https://play.google.com/store/apps/details?id=com.foxdebug.acodefree) editor.**
