@@ -6,9 +6,9 @@
 
 ## What you need to do:
 
-- **The files that you'll need to use are .yaml files, these can be edited in any basic text editor. Notepad++ and Atom are recommended for desktops. If you happen to want to translate on an Android mobile device, check out [acode](https://play.google.com/store/apps/details?id=com.foxdebug.acodefree) editor.**
+- **The files that you'll need to use are .yml files, these can be edited in any basic text editor. Notepad++ and Atom are recommended for desktops. If you happen to want to translate on an Android mobile device, check out [acode](https://play.google.com/store/apps/details?id=com.foxdebug.acodefree) editor.**
 
-- **The base file is `en.yaml`. Once downloaded, rename it with your language's [ISO 639-1 code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes).**
+- **The base file is `en.yml`. Once downloaded, rename it with your language's [ISO 639-1 code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes).**
 
 - **Translate the parts in the quotation marks `"..."` and everything below `|`. Refer [here](https://github.com/starry69/acutebot-translations/blob/f0d71ff2e71a8272357c0207b6223e0a24161798/Strings/en.yaml#L199) and [here](https://github.com/starry69/acutebot-translations/blob/f0d71ff2e71a8272357c0207b6223e0a24161798/Strings/en.yaml#L92).**
 
