@@ -2,6 +2,7 @@
 language: "English 🇺🇲"
 # name of people(s) who worked on this translation
 authors: "@starryboi"
+
 # Contents
 movie_str: |
   ️<b>{}</b> : {}
@@ -59,6 +60,7 @@ manga_str: |
   ‣ <b>Genres</b> : {}
 
   ‣ <b>Synopsis</b> : <em>{}</em>
+
 # Inline Content
 inline_str: |
   ‣ <b>Title</b> : {}
@@ -75,15 +77,19 @@ inline_anime_str: |
   ‣ <b>Status</b> : {}
 
   ‣ <b>OverView</b> : <em>{}</em>
+
 # Start
 start_string: |
-  Hey {}, I'm {} and i can help you to get information about your favorite movies, tv and anime shows,
-  you can also view lyrics of your favourite songs using me! Just click the <i>help</i> button below to get started with list of possible commands...
+  Hey {}, I'm {} and i can help you to get information about your favorite Movies, TV, Anime shows and lot more related stuffs!
 
-  You can also use me in inline mode to search for stuffs & your nowplaying track in any chat, just type <code>@{}</code> in your message box and follow the instructions, or try on buttons below!
+  I can also let you to view lyrics of your favourite songs and share your currently playing track on spotify with your friends.
+  Just click the <i>help</i> button below to get started with list of possible commands.
 
-  <i>and don't forget to smile, atleast once in a while :)</i>
+  You can use me via inline mode aswell for most of the things said above, just type <code>@{}</code> in your message box and follow the instructions or try the buttons given below.
+
+  Finally don't forget to smile, cause you look good when you smile ;)
 start_string_grp: "Hmmm?"
+
 # About
 about_str: |
   I'm fully written in Python3 by <a href="tg://user?id=894380120">starry</a>, feel free to report to him if you find any rough edge inside me.
@@ -96,6 +102,7 @@ about_str: |
   <b>‣</b> Lyrics data from : <code>genius.com</code>
 
   if you enjoyed using me & wanna support my creator hit the donate button below, since he's just a student so every little helps to pay for my server, and ofcourse boosting morale ;)
+
 # Help
 help_str: |
   Please click on the buttons below to get documentations for the related functions.
@@ -168,6 +175,7 @@ misc_help: |
   <b>‣</b> /watchlist : Get list of saved shows from your watchlist :D.
 
   <b>‣</b> /language : List all supported language & select your preferred one.
+
 # Inline help
 movie_inline_hlp: "Click the button below to search for movies via inline."
 tv_inline_hlp: "Click the button below to search for TV shows via inline."
@@ -177,19 +185,24 @@ watchlist_inline_hlp: "Click the button below to view & share your watchlist"
 sptnow_inline_hlp: "Click the button below to share your currently playing track."
 music_inline_hlp: "Click the button below to view lyrics of your favourite songs via inline."
 filler_inline_hlp: "Click the button below to view filler episodes of anime shows."
+
 # Admin only command
 admin_only_cmd: "Sorry, only admins can use this command!"
+
 # confirm choices
 confirm_choices: "Did you mean <b><i>{}</i></b> ?"
+
 # Errors
 api_err: "Sorry, couldn't reach API at the moment :("
 not_found: "Sorry, couldn't find any results for the query :("
 invalidcat: "Hmmm.. maybe you've sent wrong category to look for, please try again!"
 keyerror: "Oops! data of this button was lost, most probably due to restart."
 error_handler: "Hey. I'm sorry to inform you that an error happened while I tried to handle your update. My developer(s) will be notified."
+
 # Cancel
 cancel: "Cancelled the current task!"
 cancel_inactive: "No active command to cancel.. 😴"
+
 # To search entry
 tosearch_movie: "Please reply with the movie title you wanna look for."
 tosearch_tv: "Please reply with the TV title you wanna look for."
@@ -198,12 +211,15 @@ tosearch_airing_anime: "Please reply with the name of anime you want airing info
 tosearch_manga: "Please reply with the manga name you wanna look for."
 tosearch_anime_stream: "Please reply with the anime name you want streaming links for."
 tosearch_anime_char: "Please reply with name of the character you wanna look for."
+
 # search results
 search_results: "🔍 Search results for <b>{}</b>:"
+
 # callback query
 query_wait: "Hold on..."
 query_last_page: "Last page reached ^_^"
 not_allowed: "The one who issued the command shall only click this holy button."
+
 # Favs or watchlists
 watchlist_str: "<b>{}'s watchlist:</b>\n\n"
 remwatchlist_select: "Please choose the item you wanna remove:"
@@ -212,16 +228,20 @@ remwatchlist_success: "Sucessfully removed <i>{}</i> from your watchlist!"
 nofavs: "Hmmm 🤔 looks like you don't have any title saved in your watchlist yet!"
 remfav: "Great work! Successfully cleared your watchlist :)"
 savedfav: "Added '{}' to your Watchlist!"
+
 # Greet
 greet: "Hey {}! Thank you for adding me in {} :)"
+
 # Lyrics
 songname: "Please tell me name of the song you want lyrics for."
 artistname: "Great! now tell me name of the artist for this song."
 searching_lyrics: "🔍 Looking for lyrics . . ."
 lyrics_not_found: "Sorry i couldn't find lyrics for that song."
+
 # Subtitles
 tosearchsubs: "Please reply with the Movie | Anime name you want subs for."
 subs_str: "🏷 Subtitles for <b>{}</b>.\nClick on buttons below to download!"
+
 # Spotify
 spt_login: |
   Hey {}, Please click the button below to login with your spotify account.
@@ -229,30 +249,37 @@ spt_login: |
   We respect user's privacy & will never store or use any of your data for wrong purpose!
 spt_login_pm: "Please contact me in PM to login with your spotify account, inorder to use this feature."
 spt_already_logged: "Looks like you've already logged-in!"
+
 # Anime-Stream
 anime_streaming_results: "search results for <b>{}</b>, Click on button below to get streaming links and start streaming..."
 anime_streaming_links_msg: "🏷 streaming links for <b>{}</b>:"
 anime_streamer_not_found: "Sorry looks like there is no streamer available for this title..."
+
 # Anime character
 saved_waifu: "Saved {} as your waifu >~<"
 no_waifu: "Looks like you don't have any waifu yet, however you can use /character to get one!"
+
 # Trending
 trending_time: "Please choose the time window to short out your search."
 trending_movie: "✨ Top ten trending movies <b>{}</b>."
 trending_tv: "✨ Top ten trending TV shows <b>{}</b>"
+
 # Recommendation
 recm_type: "Ok so tell me for which category you want recommendations for."
 recm_name: "Great! now just tell me name of any {} you've recently watched & liked, I'll try recommending you more stuffs similar to that one ;)"
 recm_results: "Since you've liked {}, you might wanna checkout these titles too!"
 recm_not_found: "Sorry, looks like i couldn't guess anything similar for that title..."
+
 # Collection
 collection_entry: |
   Please tell me the name of the movie collection you wanna look for.
   Example: <code>The Avengers</code>.
 col_search_res: "Here is the list of all movie collections i found for your query."
+
 # languages
 curr_chat_lang: "Hey. Your current language is <b>{}</b>, select the one you want from the buttons below :)"
 set_chat_lang: "Great, {} it is from now on!"
+
 # RSS / news feeds
 rss_sub_entry: "Please choose feeds you would ike to subscribe :)"
 rss_sub_successful: "Successfully subscribed to {} news feeds."
@@ -261,13 +288,17 @@ no_rss_subs: "You aren't subscribed to any news feed to begin with!"
 rss_unsubscribe: "List of feeds you're currently subscribed to, click the button below to unsubscribe whatever feed you want :)"
 rss_unsubscribe_sucess: "Successfully unsubscribed to {} news feeds."
 spt_not_listening_anything: "You aren't listening to anything right now 😴"
+
 # anime schedule
 schedule_entry: "Hey there! click on button below containing name of the day you want anime schedule for."
 schedule_info: "<b>🗓️ Anime schedule for {}.</b>"
+
 # conversation timeout
 conv_timeout: "Sorry. I have not received your reply within specified time, command has been cancelled."
+
 # anime list characher
 list_character_anime: "Characters that appeared in <b>{}</b>:"
 anime_characters_not_found: "Sorry, i couldn't find characters for this anime."
+
 # anime fillers
 filler_inline_message: "Click the button below to view filler episodes of {}"
