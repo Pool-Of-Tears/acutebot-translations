@@ -1,0 +1,323 @@
+# Language name in their native
+language: "Nederlands 🇳🇱"
+# name of people(s) who worked on this translation
+authors: "@SGANoud"
+# Contents
+movie_str: |
+  ️ <b>{}</b> : {}
+
+  ‣ <b>Status</b> : {}
+  ‣ <b>Genre’s</b> : {}
+  ‣ <b>Talen</b> : {}
+  ‣ <b>Duur</b> : {} minutes
+  ‣ <b>Budget</b> : {}
+  ‣ <b>Opbrengst</b> : {}
+  ‣ <b>Verschijningsdatum</b> : {}
+  ‣ <b>Beoordeling</b> : {}
+  ‣ <b>Populariteit</b> : {}
+
+  ‣ <b>Samenvatting</b> : <em>{}</em>
+tv_str: |
+  <b>{}</b>
+
+  ‣ <b>Gemaakt door</b> : {}
+  ‣ <b>Genre’s</b> : {}
+  ‣ <b>Talen</b> : {}
+  ‣ <b>Episode duur</b> : {}
+  ‣ <b>Eerst</b> : {}
+  ‣ <b>Laatst</b> : {}
+  ‣ <b>Status</b> : {}
+  ‣ <b>Seizoenen</b> : {}
+  ‣ <b>Totale EP’s</b> : {}
+  ‣ <b>Beoordeling</b> : {}
+  ‣ <b>Productie</b> : {}
+
+  ‣ <b>Samenvatting</b> : <em>{}</em>
+anime_str: |
+  <b>{}</b> | <b>{}</b>
+
+  ‣ <b>Genre’s</b> : {}
+  ‣ <b>Type</b> : {}
+  ‣ <b>Beoordeling</b> : {}
+  ‣ <b>Status</b> : {}
+  ‣ <b>Eerste</b> : {}
+  ‣ <b>Laatste</b> : {}
+  ‣ <b>Duur</b> : {} minutes
+  ‣ <b>Aantal episodes</b> : {}
+
+  ‣ <b>Synopsis</b> : <em>{}</em>
+manga_str: |
+  <b>{}</b> | <b>{}</b>
+
+  ‣ <b>Type</b> : {}
+  ‣ <b>Beoordeling</b> : {}
+  ‣ <b>Status</b> : {}
+  ‣ <b>Eerste</b> : {}
+  ‣ <b>Laatste</b> : {}
+  ‣ <b>Aantal volumes</b> : {}
+  ‣ <b>Aantal hoofdstukken</b> : {}
+  ‣ <b>Genre’s</b> : {}
+
+  ‣ <b>Synopsis</b> : <em>{}</em>
+album_str: |
+  ‣ <b>{}</b> by <b>{}</b>
+  ‣ <b>Label</b> : {}
+  ‣ <b>Copyright</b> : {}
+  ‣ <b>Populariteit</b> : {} %
+  ‣ <b>Aantal nummers</b> : {}
+  ‣ <b>Uitgebracht op</b> : {}
+
+# Inline Content
+inline_str: |
+  ‣ <b>Titel</b> : {}
+  ‣ <b>Uitgebracht op</b> : {}
+  ‣ <b>Populariteit</b> : {}
+  ‣ <b>Taal</b> : {}
+  ‣ <b>Beoordeling</b> : {}
+
+  ‣ <b>Plot</b> : <em>{}</em>
+inline_anime_str: |
+  <b>{}</b> | <b>{}</b>
+  ‣ <b>Type</b> : {}
+  ‣ <b>Beoordeling</b> : {}
+  ‣ <b>Status</b> : {}
+
+  ‣ <b>Plot</b> : <em>{}</em>
+
+# Start
+start_string: |
+  Hoi {}, ik ben {} en kan je informatie geven over je favoriete films, series en anime shows. Je kunt met mij ook muziek downloaden en songteksten bekijken! Gebruik de <i>help</i> knop hieronder om te beginnen met een lijst van beschikbare commando’s.
+
+  Je kunt mij ook in inline modus gebruiken om naar dingen te zoeken of je huidige Spotify nummer te sturen in elke chat. Type gewoon <code>@{}</code> in een chat en volg de instructies, of probeer de knoppen hieronder!
+
+  <i>En vergeet niet te lachen, eens in de zoveel tijd :)</i>
+start_string_grp: "Hmmm?"
+
+# About
+about_str: |
+  Ik ben geschreven in Python3 door <a href="tg://user?id=894380120">starry</a>, schroom niet contact op te nemen als je bugs vindt in mij.
+
+  <b>‣</b> Bot versie : <code>{}</code>
+  <b>‣</b> Python versie : <code>{}</code>
+  <b>‣</b> Library versie : <code>PTB {}</code>
+  <b>‣</b> Films & series data : <code>themoviedb.org</code>
+  <b>‣</b> Anime data van : <code>anilist.co</code>
+  <b>‣</b> Lyrics data van : <code>genius.com</code>
+
+  Als je mij graag gebruikt en mijn ontwikkelaar wilt ondersteunen, klik de doneer knop hieronder. Hij is ook maar een student dus alle kleine beetjes helpen om de server te onderhouden, en natuurlijk voor de moraal ;)
+
+# Help
+help_str: |
+  Gebruik de knoppen hieronder om informatie te krijgen over alle functies.
+movie_help: |
+  <b>🗒️ Documentatie voor Films & Series gerelateerde functies:</b>
+
+  <b>‣</b> /movies : Informatie over je favoriete films.
+
+  <b>‣</b> /tvshows : Informatie over je favoriete series.
+
+  <b>‣</b> /recommend : Geeft je aanbevelingen voor films en series, gebaseerd op wat jij leuk vindt!
+
+  <b>‣</b> /trendingmv : Bekijk trending films van vandaag of deze week.
+
+  <b>‣</b> /trendingtv : Bekijk trending series van vandaag of deze week.
+
+  <b>‣</b> /collection : Bekijk alle films in een collectie, bijv: The Avengers.
+anime_help: |
+  <b>🗒️ Documentatie voor Anime & Manga gerelateerde functies:</b>
+
+  <b>‣</b> /anime : Informatie over je favoriete anime titels.
+
+  <b>‣</b> /manga : Informatie over je favoriete manga titels.
+
+  <b>‣</b> /airing : Bekijk de uitzendstatus van je favoriete animeseries!
+
+  <b>‣</b> /schedule : Bekijk het anime uitzendschema voor deze week.
+
+  <b>‣</b> /character : Bekijk informatie over anime personages.
+
+  <b>‣</b> /mywaifu : Je favoriete waifu bekijken of opslaan ;)
+
+  <b>‣</b> /fillers : Krijg een lijst van filler episodes van een bepaalde anime.
+
+  <b>‣</b> /streamlink : Krijg streaming links voor je favoriete anime.
+news_help: |
+  <b>🗒️ Documentatie voor nieuwsberichten gerelateerde functies:</b>
+
+  <b>‣</b> /subscribe : Meld je aan voor nieuws.
+  <b>‣</b> /unsubscribe : Meld je af voor nieuws.
+
+  <b><em>Blijf up-to-date met nieuws over de dingen die jij leuk vindt! Hier is een lijst met dingen waarover ik je kan informeren.</em></b>
+
+  ‣ <em>Nieuws over de laatste films, geruchten en reviews van films die naar de bioscopen komen in de <u>filmnieuws</u> sectie.</em>
+
+  ‣ <em>Het laatste nieuws over de series die jij het liefste kijkt in <u>serie nieuws</u> sectie.</em>
+
+  ‣ <em>Nieuws en feiten over je favoriete anime series in de <u>anime nieuws</u> sectie.</em>
+
+  ‣ <em>Dagelijks verslag van indie rock, hip-hop, electronisch, pop, metal, en experimentele muziek in de <u>muzieknieuws</u> sectie.</em>
+music_help: |
+  <b>🗒️ Documentatie voor Muziek & Lyrics gerelateerde functies:</b>
+
+  <b>‣</b> /lyrics : Zoek voor songteksten van je favoriete muziek.
+
+  <b>‣</b> /nowplaying : Bekijk wat je nu luistert in Spotify.
+
+  <b>Tip</b> : Laat aan iedereen zien wat je nu luistert door mij inline te gebruiken! Type gewoon <code>@acutebot .nowplaying</code> in een willekeurige chat.
+misc_help: |
+  <b>🗒️ Documentatie voor overige commando’s die niet een categorie passen</b>
+
+  <b>‣</b> /mquote : Krijg random handmatig geselecteerde superhelden quotes.
+
+  <b>‣</b> /aquote : Hetzelfde als hierboven maar voor anime gerelateerde quotes!
+
+  <b>‣</b> /reddit : Krijg random memes van populaire subreddits.
+
+  <b>‣</b> /subtitle : Download ondertitels van je favoriete films.
+
+  <b>‣</b> /watchlist : Bekijk je kijklijst van films en series :D.
+
+  <b>‣</b> /language : Bekijk de ondersteunde bot-talen en kies je gewenste taal.
+
+# Inline help
+movie_inline_hlp: "Klik de knop hieronder om films te zoeken via inline modus."
+tv_inline_hlp: "Klik de knop hieronder om series te zoeken via inline modus."
+anime_inline_hlp: "Klik de knop hieronder om anime te zoeken via inline modus."
+manga_inline_hlp: "Klik de knop hieronder om manga titels te zoeken via inline modus."
+watchlist_inline_hlp: "Klik de knop hieronder om je kijklijst te beheren en te delen."
+sptnow_inline_hlp: "Klik de knop hieronder om het nummer te delen wat je nu afspeelt."
+music_inline_hlp: "Klik de knop hieronder om je favoriete muziek te downloaden via inline modus."
+filler_inline_hlp: "Klik op de knop hieronder om filler episodes van anime series te zien"
+
+# Admin only command
+admin_only_cmd: "Oeps, alleen beheerders kunnen dit commando gebruiken!"
+
+# confirm choices
+confirm_choices: "Bedoelde je <b><i>{}</i></b> ?"
+
+# Errors
+api_err: "Oeps, ik kon de API even niet bereiken :("
+not_found: "Oeps, ik kon geen resultaten vinden voor die zoekopdracht :("
+invalidcat: "Hmmm… misschien heb je in de verkeerde categorie gezocht, probeer het nog eens!"
+keyerror: "Oeps, de data van deze knop is verdwenen, waarschijnlijk door een herstart."
+error_handler: "Er is helaas een fout opgetreden bij het behandelen van je update. Mijn ontwikkelaar(s) worden op de hoogte gesteld."
+
+# Cancel
+cancel: "Huidige taak geannuleerd!"
+cancel_inactive: "Niets geannuleerd, ik was toch niet actief… 😴"
+
+# To search entry
+tosearch_movie: "Stuur me de titel van de film die je wilt zoeken."
+tosearch_tv: "Stuur me de titel van de serie die je wilt zoeken."
+tosearch_anime: "Stuur me de titel van de anime die je wilt zoeken."
+tosearch_airing_anime: "Stuur me de naam van de anime waarvan je informatie wilt."
+tosearch_manga: "Stuur me de naam van de manga die je wilt zoeken."
+tosearch_anime_stream: "Stuur me de naam van de anime waarvan je streaming links wilt."
+tosearch_anime_char: "Stuur me de naam van het personage dat je wilt zoeken."
+
+# search results
+search_results: "🔍 Zoekresultaten voor <b>{}</b>:"
+
+# callback query
+query_wait: "Momentje…"
+query_last_page: "Dat was de laatste pagina ^_^"
+not_allowed: "Slechts hij die het commando uitvoerde zal deze heilige knop gebruiken."
+
+# Favs or watchlists
+watchlist_str: "<b>{}'s kijklijst:</b>\n\n\n"
+remwatchlist_select: "Kies het item dat je wilt verwijderen:"
+rem_all_watchlist_confirm: "Weet je zeker dat je alle items van je kijklijst wilt verwijderen?"
+remwatchlist_success: "<i>{}</i> is van je kijklijst verwijderd!"
+nofavs: "Hmmm 🤔 Het lijkt erop dat je nog niets in je kijklijst hebt opgeslagen!"
+remfav: "Ok! Je kijklijst is opgeschoond :)"
+savedfav: "‘{}’ toegevoegd aan je kijklijst!"
+
+# Greet
+greet: "Hoi {}! Bedankt dat je me hebt toegevoegd aan {} :)"
+
+# Lyrics
+songname: "Stuur me de titel van het nummer waarvan je songteksten wilt."
+artistname: "Top! Stuur me nu de naam van de artiest van dit nummer."
+searching_lyrics: "🔍 Songteksten zoeken…"
+lyrics_not_found: "Ik kon geen songteksten vinden van dit nummer."
+
+# Music
+musicq: "Selecteer je gewenste audiokwaliteit :)"
+curr_musicq: "De audiokwaliteit is nu ingesteld op {}."
+no_curr_musicq: "Je hebt nog geen gewenste audiokwaliteit ingesteld!"
+set_musicq: "De audiokwaliteit is nu ingesteld op {}!"
+musicname: "Stuur me de titel van het nummer dat je wilt zoeken."
+albumname: "Stuur me de naam van het album dat je wilt zoeken."
+download_music: "⏳ Downloaden… momentje!"
+upload_music: "⌛ Uploaden… momentje!"
+upload_music_mtp: "De bestandsgrootte is meer dan 50MB. Uploaden via MTproto… Dit kan tot 5 minuten duren, momentje alsjeblieft."
+music_cap: "➠ {}\n<b>ıllıllı</b> @acutebot <b>ıllıllı</b>"
+music_not_found: "Dat nummer kan ik helaas niet vinden :("
+invalid_song_url: "Oeps, die Spotify link is niet geldig!"
+song_usage: "Format: <code>/songbylink</code> &lt;spotifylink&gt;"
+album_tracks: "<b>Lijst van alle nummers in het album. Klik op een nummer om het te downloaden.</b>\n\n\n"
+
+# Subtitles
+tosearchsubs: "Stuur de naam van de film/anime waarvan je ondertiteling wilt."
+subs_str: "🏷 Ondertitels voor <b>{}</b>.\nKlik de knoppen hieronder om te downloaden!"
+
+# Spotify
+spt_login: |
+  Hey {}, gebruik de knop hieronder om in te loggen bij je Spotify account.
+
+  Wij respecteren de privacy van onze gebruikers, je data wordt niet opgeslagen of gebruikt voor verkeerde doeleinden!
+spt_login_pm: "Neem contact op in privé om in te loggen bij je Spotify account, om deze functie te gebruiken."
+spt_already_logged: "Je bent al ingelogd!"
+
+# Anime-Stream
+anime_streaming_results: "Zoekresultaten voor <b>{}</b>. Klik de knop hieronder om streaming links te bekijken en te beginnen met streamen…"
+anime_streaming_links_msg: "🏷 Streaming links voor <b>{}</b>:"
+anime_streamer_not_found: "Oeps, er is geen streamingsaanbieder beschikbaar voor deze titel…"
+
+# Anime character
+saved_waifu: "{} opgeslagen als je waifu >~<"
+no_waifu: "Het lijkt erop dat je nog geen waifu hebt, maar je kan /character gebruiken om er een te krijgen!"
+
+# Trending
+trending_time: "Kies een tijdvak om resultaten te filteren."
+trending_movie: "✨ Top tien trending films <b>{}</b>."
+trending_tv: "✨ Top tien trending series <b>{}</b>."
+
+# Recommendation
+recm_type: "Ok, voor welke categorie wil je aanbevelingen?"
+recm_name: "Top! Stuur me nu de naam van een {} die je recentelijk hebt gezien en leuk vond, en ik zal proberen vergelijkbare dingen aan te bevelen :)"
+recm_results: "Als je {} leuk vond, probeer eens deze titels!"
+recm_not_found: "Oeps, ik kon niets vergelijkbaars vinden voor die titel…"
+
+# Collection
+collection_entry: |
+  Stuur me de naam van de film collectie die je wilt zoeken.
+  Bijvoorbeeld: <code>The Avengers</code>.
+col_search_res: "Hier is een lijst van alle film collecties die ik heb gevonden."
+
+# languages
+curr_chat_lang: "Hoi! Je huidige taal is <b>{}</b>, kies een taal met de knoppen hieronder :)"
+set_chat_lang: "Ok, vanaf nu praat ik {}!"
+
+# RSS / news feeds
+rss_sub_entry: "Kies nieuwscategorieën waarvoor je wilt aanmelden :)"
+rss_sub_successful: "Je bent aangemeld voor {} nieuws."
+rss_already_subbed: "Je bent al aangemeld voor deze categorie!"
+no_rss_subs: "Je bent helemaal niet aangemeld voor een nieuwscategorie!"
+rss_unsubscribe: "Je bent aangemeld voor de volgende nieuwscategorieën. Gebruik de knoppen hieronder om je af te melden voor die categorie :)"
+rss_unsubscribe_sucess: "Je bent afgemeld voor {} nieuws."
+spt_not_listening_anything: "Je bent nu nergens naar aan het luisteren 😴"
+
+# anime schedule
+schedule_entry: "Hoi! Klik hieronder op de dag waarvoor je het anime schema wilt."
+schedule_info: "<b>🗓️ Anime schema voor {}.</b>"
+
+# conversation timeout
+conv_timeout: "Sorry. Ik heb niks van je gehoord binnen redelijke tijd, het commando is geannuleerd."
+
+# anime list characher
+list_character_anime: "Personages die voorkomen in <b>{}</b>:"
+anime_characters_not_found: "Oeps, ik kon geen personages vinden voor deze anime."
+
+# anime fillers
+filler_inline_message: "Klik op de knop hieronder om filler episodes te zien van {}"
