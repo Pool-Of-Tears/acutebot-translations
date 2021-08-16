@@ -286,7 +286,7 @@ rss_sub_successful: "Successfully subscribed to {} news feeds."
 rss_already_subbed: "You're already subscribed to this feed!"
 no_rss_subs: "You aren't subscribed to any news feed to begin with!"
 rss_unsubscribe: "List of feeds you're currently subscribed to, click the button below to unsubscribe whatever feed you want :)"
-rss_unsubscribe_sucess: "Successfully unsubscribed to {} news feeds."
+rss_unsubscribe_sucess: "Successfully unsubscribed from {} news feeds."
 spt_not_listening_anything: "You aren't listening to anything right now 😴"
 
 # anime schedule
