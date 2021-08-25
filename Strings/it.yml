@@ -2,6 +2,7 @@
 language: "Italiano 🇮🇹"
 # name of people(s) who worked on this translation
 authors: "@formula-spectre"
+
 # Contents
 movie_str: |
   ️<b>{}</b> : {}
@@ -59,6 +60,7 @@ manga_str: |
   ‣ <b>Genres</b> : {}
 
   ‣ <b>Synopsis</b> : <em>{}</em>
+
 # Inline Content
 inline_str: |
   ‣ <b>Title</b> : {}
@@ -75,6 +77,7 @@ inline_anime_str: |
   ‣ <b>Status</b> : {}
 
   ‣ <b>OverView</b> : <em>{}</em>
+
 # Start
 start_string: |
   Hey {}, sono {} e ti posso aiutare ad ottenere informazioni sui tuoi film, anime e serie tv preferite.
@@ -84,6 +87,7 @@ start_string: |
 
   <i>e non ti dimenticare di sorridere almeno una volta! :)</i>
 start_string_grp: "Hmmm?"
+
 # About
 about_str: |
   sono completamente scritto in Python3 da <a href="tg://user?id=894380120">starry</a>, sentiti libero di aiutarlo nel caso trovi qualche imperfezione.
@@ -96,6 +100,7 @@ about_str: |
   <b>‣</b> Lyrics data from : <code>genius.com</code>
 
   se ti piace quello che faccio e vuoi supportare il creatore, tocca il pulsante dona qui sotto, siccome lui è solo uno studente e ha bisogno di pagare per il server su cui sono hostato, e ovviamente anche per aumentare il suo morale ;)
+
 # Help
 help_str: |
   per favore clicca su uno dei pulsanti qui sotto per vedere che cosa fanno.
@@ -155,6 +160,7 @@ misc_help: |
   <b>‣</b> /watchlist : Elenca la lista di serie TV salvata dalla tua watchlist :D
 
   <b>‣</b> /language : Elenca le lingue suppportate e seleziona la tua preferita.
+
 # Inline help
 movie_inline_hlp: "Premi il pulsante sotto per cercare film in mod. inline."
 tv_inline_hlp: "Premi il pulsante sotto per cercare serie tv in mod. inline."
@@ -164,19 +170,24 @@ watchlist_inline_hlp: "Fai clic sul pulsante in basso per visualizzare e condivi
 sptnow_inline_hlp: "Premi il pulsante qui sotto per condividere la canzone che stai riproducendo ora"
 music_inline_hlp: "Premi il pulsante qui sotto per scaricare la tua canzone preferita via inline"
 filler_inline_hlp: ""
+
 # Admin only command
 admin_only_cmd: "Mi dispiace,ma solo gli amministratori possono usare questo comando"
+
 # confirm choices
 confirm_choices: "Intendevi <b><i>{}</i></b> ?"
+
 # Errors
 api_err: "Mi dispiace, ma non riesco raggiungere l'API in questo momento :("
 not_found: "Mi dispiace, non riesco a trovare nulla che corrisponde a cosa hai cercato :("
 invalidcat: "Hmmm.. magari hai selezionato la categoria sbagliata, per favore riprova! "
 keyerror: "Oops! qualcosa è andato storto, per favore riprova!"
 error_handler: "Hey. Mi duole informarti che c'è stato un errore mentre cercavo di interfacciarmi con l'aggiornamento. Il mio sviluppatore riceverà una notifica."
+
 # Cancel
 cancel: "L'attività attuale è stata annullata!"
 cancel_inactive: "nessuna attività da annullare.. 😴"
+
 # To search entry
 tosearch_movie: "Per favore rispondi con il film che vuoi cercare."
 tosearch_tv: "Per favore rispondi con la serie TV che vuoi cercare."
@@ -185,12 +196,15 @@ tosearch_airing_anime: ""
 tosearch_manga: "Per favore rispondi con il manga che vuoi cercare."
 tosearch_anime_stream: "Per favore rispondi con l'anime il quale ti servono link di streaming."
 tosearch_anime_char: "Per favore rispondi con il personaggio che vuoi cercare."
+
 # search results
 search_results: "🔍 Cerca risultati per <b>{}</b>:"
+
 # callback query
 query_wait: "Dammi un momento..."
 query_last_page: "Questa è l'ultima pagina ^_^"
 not_allowed: "Colui che ha dato il comando dovrà solo premere questo pulsante sacro."
+
 # Favs or watchlists
 watchlist_str: "<b>la watchlist di {}:</b>\n\n"
 remwatchlist_select: ""
@@ -199,16 +213,20 @@ remwatchlist_success: "<i>{}</i> rimosso con successo dalla tua lista di titoli!
 nofavs: "Hmmm 🤔 Non hai ancora salvato nulla nella tua watchlist!"
 remfav: "Successo! la tua watchlist è stata ripulita :)"
 savedfav: "Aggiunto '{}' alla tua Watchlist!"
+
 # Greet
 greet: "Hey {}! grazie per avvermi aggiunto in {} :)"
+
 # Lyrics
 songname: "Per favore dimmi la canzone per cui vuoi il testo."
 artistname: "Bene! ora dimmi il nome dell'artista!"
 searching_lyrics: "🔍 cerco il testo. . ."
 lyrics_not_found: "Mi dispiace, ma non ho trovato il testo per questa canzone."
+
 # Subtitles
 tosearchsubs: "Per favore, rispondi con il film/anime il quale vuoi i sottotitoli"
 subs_str: "🏷 Sottotitoli per <b>{}</b>.\nPremi il pulsate per scaricarli!"
+
 # Spotify
 spt_login: |
   Hey {}, Per favore cliica il pulsante qui sotto per loggarti con l'account spotify.
@@ -216,30 +234,37 @@ spt_login: |
   Rispettiamo la privacy dell'utente, e per questa non conserviamo nessun tuo dato !
 spt_login_pm: "Per favore contattami in modo provato per loggarti con il tuo account spotify per usare questa funzione"
 spt_already_logged: "Sembra che sei già entrato con il tuo account di spotify!"
+
 # Anime-Stream
 anime_streaming_results: "Risultati per <b>{}</b>, Premi il pulsate sotto per iniziare a streammare.."
 anime_streaming_links_msg: "🏷 link di streaming per <b>{}</b>:"
 anime_streamer_not_found: "Mi dispiace, ma sembra che che ono ci siano siti di streaming per questo titolo.."
+
 # Anime character
 saved_waifu: "salvato/a {} come la tua waifu >~<"
 no_waifu: "Sembra che tu non hai ancora una waifu, ma puoi trovarla usando /charter!"
+
 # Trending
 trending_time: "Per favore seleziona la finestra di tempo per la tua ricerca:"
 trending_movie: "✨ Top ten film in tendenza <b>{}</b>."
 trending_tv: "✨ Top dieci serie TV in tendenza <b>{}</b>"
+
 # Recommendation
 recm_type: "OK dimmi per quale categoria vuoi dei suggerimenti."
 recm_name: "Bene! Ora dimmi il nome di qualsiasi {} hai guardato recentemente che ti è piaciuto, e proverò a consigliarti titoli simili ;)"
 recm_results: "Siccome ti è piaciuto {} penso di piaceranno anche questi titoli!"
 recm_not_found: "Mi dispiace, ma sembra che non ti possa suggerire niente di simile..."
+
 # Collection
 collection_entry: |
   Per favore dimmi il nome della serie di film che stai cercando.
   Example: <code>The Avengers</code>.
 col_search_res: "Ecco la lista di tutte le collezioni di film basato sulla tua ricerca."
+
 # languages
 curr_chat_lang: "Hey. la tua lingua corrente è <b>{}</b>, seleziona quella che vuoi dai pulsanti qui sotto :)"
 set_chat_lang: "Bene, {} è la tua lingua da ora!"
+
 # RSS / news feeds
 rss_sub_entry: ""
 rss_sub_successful: ""
@@ -248,13 +273,20 @@ no_rss_subs: ""
 rss_unsubscribe: ""
 rss_unsubscribe_sucess: ""
 spt_not_listening_anything: ""
+
 # anime schedule
 schedule_entry: ""
 schedule_info: ""
+
 # conversation timeout
 conv_timeout: ""
+
 # anime list character
 list_character_anime: ""
 anime_characters_not_found: ""
+
 # anime fillers
 filler_inline_message: ""
+
+# reviews
+no_reviews_available: ""

@@ -2,6 +2,7 @@
 language: "Nederlands 🇳🇱"
 # name of people(s) who worked on this translation
 authors: "@SGANoud"
+
 # Contents
 movie_str: |
   ️ <b>{}</b> : {}
@@ -66,6 +67,7 @@ album_str: |
   ‣ <b>Populariteit</b> : {} %
   ‣ <b>Aantal nummers</b> : {}
   ‣ <b>Uitgebracht op</b> : {}
+
 
 # Inline Content
 inline_str: |
@@ -321,3 +323,6 @@ anime_characters_not_found: "Oeps, ik kon geen personages vinden voor deze anime
 
 # anime fillers
 filler_inline_message: "Klik op de knop hieronder om filler episodes te zien van {}"
+
+# reviews
+no_reviews_available: ""

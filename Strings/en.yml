@@ -302,3 +302,6 @@ anime_characters_not_found: "Sorry, i couldn't find characters for this anime."
 
 # anime fillers
 filler_inline_message: "Click the button below to view filler episodes of {}"
+
+# reviews
+no_reviews_available: "Sorry, no reviews available for this item."
