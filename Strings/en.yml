@@ -281,7 +281,7 @@ curr_chat_lang: "Hey. Your current language is <b>{}</b>, select the one you wan
 set_chat_lang: "Great, {} it is from now on!"
 
 # RSS / news feeds
-rss_sub_entry: "Please choose feeds you would ike to subscribe :)"
+rss_sub_entry: "Please choose feeds you would like to subscribe :)"
 rss_sub_successful: "Successfully subscribed to {} news feeds."
 rss_already_subbed: "You're already subscribed to this feed!"
 no_rss_subs: "You aren't subscribed to any news feed to begin with!"
