@@ -1,0 +1,307 @@
+# Language name in their native
+language: "Indonesian 🇮🇩"
+# name of people(s) who worked on this translation
+authors: "@Anomaliii"
+
+# Contents
+movie_str: |
+  ️<b>{}</b> : {}
+
+  ‣ <b>Status</b> : {}
+  ‣ <b>Aliran</b> : {}
+  ‣ <b>Bahasa</b> : {}
+  ‣ <b>Waktu tayang</b> : {} menit
+  ‣ <b>Anggaran</b> : {}
+  ‣ <b>Pendapatan</b> : {}
+  ‣ <b>Tanggal Rilis</b> : {}
+  ‣ <b>Penilaian Rata-Rata</b> : {}
+  ‣ <b>Popularitas</b> : {}
+
+  ‣ <b>Gambaran</b> : <em>{}</em>
+tv_str: |
+  <b>{}</b>
+
+  ‣ <b>Dibuat oleh</b> : {}
+  ‣ <b>Aliran</b> : {}
+  ‣ <b>Bahasa</b> : {}
+  ‣ <b>Waktu Tayang Episode</b> : {}
+  ‣ <b>Pertama ditayangkan</b> : {}
+  ‣ <b>Terakhir ditayangkan</b> : {}
+  ‣ <b>Status</b> : {}
+  ‣ <b>Season</b> : {}
+  ‣ <b>Total EPs</b> : {}
+  ‣ <b>Penilaian rata-rata</b> : {}
+  ‣ <b>Perusahaan produksi</b> : {}
+
+  ‣ <b>Gambaran</b> : <em>{}</em>
+anime_str: |
+  <b>{}</b> | <b>{}</b>
+
+  ‣ <b>Aliran</b> : {}
+  ‣ <b>Tipe</b> : {}
+  ‣ <b>Penilaian rata-rata</b> : {}
+  ‣ <b>Status</b> : {}
+  ‣ <b>Pertama ditayangkan</b> : {}
+  ‣ <b>Terakhir ditayangkan</b> : {}
+  ‣ <b>Waktu tayang</b> : {} menit
+  ‣ <b>Jumlah episode</b> : {}
+
+  ‣ <b>Ringkasan</b> : <em>{}</em>
+manga_str: |
+  <b>{}</b> | <b>{}</b>
+
+  ‣ <b>Type</b> : {}
+  ‣ <b>Penilaian Rata-Rata</b> : {}
+  ‣ <b>Status</b> : {}
+  ‣ <b>Pertama ditayangkan</b> : {}
+  ‣ <b>Terakhir ditayangkan</b> : {}
+  ‣ <b>Jumlah volume</b> : {}
+  ‣ <b>Jumlah bab</b> : {}
+  ‣ <b>Aliran</b> : {}
+
+  ‣ <b>Ringkasan</b> : <em>{}</em>
+
+# Inline Content
+inline_str: |
+  ‣ <b>Judul</b> : {}
+  ‣ <b>Rilis</b> : {}
+  ‣ <b>Popularitas</b> : {}
+  ‣ <b>Bahasa</b> : {}
+  ‣ <b>Penilaian Rata-Rata</b> : {}
+
+  ‣ <b>Gambaran</b> : <em>{}</em>
+inline_anime_str: |
+  <b>{}</b> | <b>{}</b>
+  ‣ <b>Tipe</b> : {}
+  ‣ <b>Penilaian Rata-Rata</b> : {}
+  ‣ <b>Status</b> : {}
+
+  ‣ <b>Gambaran</b> : <em>{}</em>
+
+# Start
+start_string: |
+  Hai {}, Saya {} dan saya dapat membantu Anda mendapatkan informasi tentang Film, TV, acara Anime favorit Anda, dan banyak lagi hal terkait lainnya!
+
+  Saya juga dapat menmbiarkan Anda untuk melihat lirik lagu favorit Anda dan membagikan lagu yang sedang Anda putar di spotify dengan teman-teman Anda.
+  Cukup klik tombol <i>help</i> di bawah ini untuk memulai dengan daftar kemungkinan perintah.
+
+  Anda dapat menggunakan saya melalui mode inline juga untuk sebagian besar hal yang dikatakan di atas, ketik saja <code>@{}</code> di kotak pesan Anda dan ikuti petunjuk atau coba tombol yang diberikan di bawah ini.
+
+  Terakhir jangan lupa untuk tersenyum, karena kamu terlihat baik ketika kamu tersenyum ;)
+start_string_grp: "Hmmm?"
+
+# About
+about_str: |
+  Saya sepenuhnya ditulis dalam Python3 oleh <a href="tg://user?id=894380120">starry</a>, jangan ragu untuk melaporkan kepadanya jika Anda menemukan sisi kasar di dalam diri saya.
+
+  <b>‣</b> Versi bot : <code>{}</code>
+  <b>‣</b> Versi python : <code>{}</code>
+  <b>‣</b> Versi library : <code>PTB {}</code>
+  <b>‣</b> Data Film & TV : <code>themoviedb.org</code>
+  <b>‣</b> Data anime dari : <code>anilist.co</code>
+  <b>‣</b> Data lirik dari : <code>genius.com</code>
+
+  jika Anda senang menggunakan saya & ingin mendukung pencipta saya, tekan tombol donasi di bawah ini, karena dia hanya seorang siswa jadi setiap sedikit membantu untuk membayar server saya, dan tentu saja meningkatkan moral ;)
+
+# Help
+help_str: |
+  Silakan klik tombol di bawah ini untuk mendapatkan dokumentasi untuk fungsi terkait.
+movie_help: |
+  <b>🗒️ Dokumentasi untuk fungsi terkait Film & TV:</b>
+
+  <b>‣</b> /movies : Mencari info tentang film favorit Anda.
+
+  <b>‣</b> /tvshows : Dapatkan informasi untuk acara TV favorit Anda.
+
+  <b>‣</b> /recommend : Memberi Anda rekomendasi film & acara TV berdasarkan kesukaan Anda!
+
+  <b>‣</b> /trendingmv : Menampilkan film yang sedang tren hari ini untuk minggu ini.
+
+  <b>‣</b> /trendingtv : Sama seperti di atas tetapi untuk acara TV!
+
+  <b>‣</b> /collection : Mendapatkan semua film dalam koleksi, contoh: The Avengers.
+anime_help: |
+  <b>🗒️ Dokumentasi untuk fungsi terkait Anime & Manga:</b>
+
+  <b>‣</b> /anime : Mencari info tentang judul anime favorit Anda.
+
+  <b>‣</b> /manga : Dapatkan informasi tentang judul manga favorit Anda.
+
+  <b>‣</b> /airing : Menampilkan status penayangan serial anime favorit Anda!
+
+  <b>‣</b> /schedule : Dapatkan jadwal tayang anime sepanjang minggu ini.
+
+  <b>‣</b> /character : Mencari informasi karakter anime.
+
+  <b>‣</b> /mywaifu : Lihat atau simpan waifu favorit Anda ;)
+
+  <b>‣</b> /fillers : Dapatkan daftar episode pengisi untuk anime yang diberikan.
+
+  <b>‣</b> /streamlink : Dapatkan tautan streaming untuk judul anime favorit Anda.
+news_help: |
+  <b>🗒️ Dokumentasi untuk fungsi terkait umpan berita:</b>
+
+  <b>‣</b> /subscribe : Berlangganan umpan berita.
+  <b>‣</b> /unsubscribe : Berhenti berlangganan umpan berita.
+
+  <b><em>Dapatkan liputan berita terkini untuk hal-hal yang paling Anda sukai! Berikut adalah daftar barang yang dapat saya perbarui untuk Anda.</em></b>
+
+  ‣ <em>Dapatkan berita film, rumor, dan ulasan terbaru dari setiap film yang tayang di bioskop di bagian <u>movie news</u>.</em>
+
+  ‣ <em>Semua berita televisi terbaru tentang acara yang paling Anda sukai di bagian <u>tvshow news</u>.</em>
+
+  ‣ <em>Ikuti terus berita dan fakta anime dari serial anime favorit Anda di bagian <u> anime news</u>.</em>
+
+  ‣ <em>Dapatkan liputan harian musik indie rock, hip-hop, elektronik, pop, metal, dan eksperimental di bagian <u>music news</u>.</em>
+music_help: |
+  <b>🗒️ Dokumentasi untuk fungsi terkait musik & lirik:</b>
+
+  <b>‣</b> /lyrics : Cari lirik musik favorit Anda.
+
+  <b>‣</b> /nowplaying : Memamerkan lagu yang saat ini atau yang terakhir anda putar di spotify.
+
+  <b>Catatan</b> : Anda juga dapat memamerkan trek yang sedang anda putar dalam obrolan mana pun dengan menggunakan inline saya! lakukan saja <code>@acutebot .nowplaying</code>.
+misc_help: |
+  <b>🗒️ Dokumentasi untuk beberapa perintah lainnya yang tidak muat di mana pun!</b>
+
+  <b>‣</b> /mquote : Dapatkan kutipan film superhero acak dari koleksi yang dipilih sendiri.
+
+  <b>‣</b> /aquote : Sama seperti di atas tetapi untuk kutipan terkait anime!
+
+  <b>‣</b> /reddit : Memberikan Anda meme acak dari subreddit populer.
+
+  <b>‣</b> /subtitle : Mengunduh terjemahan untuk film favorit Anda.
+
+  <b>‣</b> /watchlist : Dapatkan daftar acara yang disimpan dari daftar pantauan Anda :D.
+
+  <b>‣</b> /language : Daftar semua bahasa yang didukung & pilih salah satu pilihan Anda.
+
+# Inline help
+movie_inline_hlp: "Klik tombol di bawah ini untuk mencari film melalui inline."
+tv_inline_hlp: "Klik tombol di bawah untuk mencari acara TV melaluiinline."
+anime_inline_hlp: "Klik tombol di bawah ini untuk mencari anime melalui inline."
+manga_inline_hlp: "Klik tombol di bawah untuk mencari judul manga melalui inline."
+watchlist_inline_hlp: "Klik tombol di bawah ini untuk melihat & membagikan watchlist Anda"
+sptnow_inline_hlp: "Klik tombol di bawah untuk membagikan lagu yang sedang Anda putar."
+music_inline_hlp: "Klik tombol di bawah ini untuk melihat lirik lagu favorit Anda melalui inline."
+filler_inline_hlp: "Klik tombol dibawah untuk melihat melihat episode pengisi acara anime."
+
+# Admin only command
+admin_only_cmd: "Maaf, hanya admin yang dapat menggunakan perintah ini!"
+
+# confirm choices
+confirm_choices: "Apakah yang kamu maksud <b><i>{}</i></b> ?"
+
+# Errors
+api_err: "Maaf, saat ini tidak dapat menjangkau API :("
+not_found: "Maaf, tidak dapat menemukan hasil apa pun untuk kueri tersbut :("
+invalidcat: "Hmmm.. mungkin Anda salah mengirim kategori yang dicari, silakan coba lagi!"
+keyerror: "Oops! data tombol ini hilang, kemungkinan besar karena restart."
+error_handler: "Hai. Saya minta maaf untuk memberi tahu Anda bahwa terjadi kesalahan saat saya mencoba menangani pembaruan Anda. Akan diberi tahukan pada pengembang saya."
+
+# Cancel
+cancel: "Membatalkan tugas saat ini!"
+cancel_inactive: "Tidak ada perintah aktif untuk dibatalkan.. 😴"
+
+# To search entry
+tosearch_movie: "Harap balas dengan judul film yang ingin kamu cari."
+tosearch_tv: "Harap balas dengan judul TV yang ingin Anda cari."
+tosearch_anime: "Harap balas dengan judul anime yang ingin dicari."
+tosearch_airing_anime: "Harap balas dengan nama anime yang ingin kamu tayangkan infonya."
+tosearch_manga: "Harap balas dengan nama manga yang ingin kamu cari."
+tosearch_anime_stream: "Harap balas dengan nama anime yang Anda inginkan untuk tautan streaming."
+tosearch_anime_char: "Harap balas dengan nama karakter yang ingin Anda cari."
+
+# search results
+search_results: "🔍 Hasil pencarian <b>{}</b>:"
+
+# callback query
+query_wait: "Tunggu sejenak..."
+query_last_page: "Halaman terakhir tercapai ^_^"
+not_allowed: "Orang yang mengeluarkan perintah hanya akan mengklik tombol suci ini."
+
+# Favs or watchlists
+watchlist_str: "<b>{}'s watchlist:</b>\n\n"
+remwatchlist_select: "Silakan pilih item yang ingin Anda hapus:"
+rem_all_watchlist_confirm: "Apakah Anda yakin akan menghapus semua item dari watchlist Anda??"
+remwatchlist_success: "Berhasil menghapus <i>{}</i> dari watchlist anda!"
+nofavs: "Hmmm 🤔 sepertinya Anda belum memiliki judul yang tersimpan di watchlist Anda!"
+remfav: "Kerja bagus! Berhasil menghapus watchlist Anda :)"
+savedfav: "Menambahkan '{}' ke Watchlist Anda!"
+
+# Greet
+greet: "Hai {}! Terima kasih telah menambahkan saya ke {} :)"
+
+# Lyrics
+songname: "Tolong beri tahu saya judul lagu yang Anda inginkan liriknya."
+artistname: "Bagus! sekarang beri tahu saya nama artis untuk lagu ini."
+searching_lyrics: "🔍 Mencari lirik . . ."
+lyrics_not_found: "Maaf saya tidak dapat menemukan lirik untuk lagu itu."
+
+# Subtitles
+tosearchsubs: "Tolong balas dengan Film | nama Anime yang ingin kamu subs."
+subs_str: "🏷 Terjemahan untuk <b>{}</b>.\nKlik tombol di bawah untuk mengunduh!"
+
+# Spotify
+spt_login: |
+  Hai {}, Silakan klik tombol di bawah ini untuk masuk dengan akun spotify Anda.
+
+  Kami menghormati privasi pengguna & tidak akan pernah menyimpan atau menggunakan data Anda untuk tujuan yang salah!
+spt_login_pm: "Silakan hubungi saya di PM untuk login dengan akun spotify Anda, untuk menggunakan fitur ini."
+spt_already_logged: "Sepertinya Anda sudah masuk ke akun anda!"
+
+# Anime-Stream
+anime_streaming_results: "Hasil penelusuran untuk <b>{}</b>, Klik tombol di bawah ini untuk mendapatkan tautan streaming dan mulai streaming..."
+anime_streaming_links_msg: "🏷 tautan streaming untuk <b>{}</b>:"
+anime_streamer_not_found: "Maaf sepertinya tidak ada streamer yang tersedia untuk judul ini..."
+
+# Anime character
+saved_waifu: "Menyimpan {} sebagai waifu Anda >~<"
+no_waifu: "Sepertinya kamu belum punya waifu, tapi kamu bisa menggunakan /character untuk mendapatkannya!"
+
+# Trending
+trending_time: "Silahkan pilih jendela waktu untuk mempersingkat pencarian Anda."
+trending_movie: "✨ Sepuluh film trending teratas <b>{}</b>."
+trending_tv: "✨ Sepuluh acara TV yang sedang tren <b>{}</b>"
+
+# Recommendation
+recm_type: "Ok jadi beri tahu saya untuk kategori mana Anda ingin rekomendasi."
+recm_name: "Bagus! sekarang beri tahu saya nama {} yang baru saja Anda tonton & sukai, Saya akan mencoba merekomendasikan Anda lebih banyak yang mirip dengan yang itu ;)"
+recm_results: "Karena Anda menyukai {}, Anda mungkin ingin memeriksa judul-judul ini juga!"
+recm_not_found: "Maaf, sepertinya saya tidak bisa menebak sesuatu yang mirip untuk judul itu..."
+
+# Collection
+collection_entry: |
+  Tolong beri tahu saya nama koleksi film yang ingin Anda cari.
+  Contoh: <code>The Avengers</code>.
+col_search_res: "Berikut adalah daftar semua koleksi film yang saya temukan untuk pertanyaan Anda."
+
+# languages
+curr_chat_lang: "Hai. Bahasa Anda saat ini adalah <b>{}</b>, pilih yang Anda inginkan melalui tombol di bawah ini :)"
+set_chat_lang: "Oke, bahasa {} mulai saat ini!"
+
+# RSS / news feeds
+rss_sub_entry: "Silakan pilih feed yang ingin Anda langgani :)"
+rss_sub_successful: "Berhasil berlangganan {} feeds berita."
+rss_already_subbed: "Anda sudah berlangganan feed ini!"
+no_rss_subs: "Anda tidak berlangganan feed berita apa pun untuk memulai!"
+rss_unsubscribe: "Daftar feed yang saat ini Anda langgani, klik tombol di bawah ini untuk berhenti berlangganan feed apa pun yang Anda inginkan :)"
+rss_unsubscribe_sucess: "Berhasil berhenti berlangganan dari {} feed berita."
+spt_not_listening_anything: "Anda tidak mendengarkan apa pun sekarang 😴"
+
+# anime schedule
+schedule_entry: "Hei! klik tombol di bawah yang berisi nama hari yang Anda inginkan untuk jadwal anime."
+schedule_info: "<b>🗓️ Jadwal anime untuk {}.</b>"
+
+# conversation timeout
+conv_timeout: "Maaf. Saya belum menerima balasan Anda dalam waktu yang ditentukan, perintah telah dibatalkan."
+
+# anime list characher
+list_character_anime: "Karakter yang muncul di <b>{}</b>:"
+anime_characters_not_found: "Maaf, saya tidak dapat menemukan karakter untuk anime ini."
+
+# anime fillers
+filler_inline_message: "Klik tombol di bawah ini untuk melihat episode pengisi {}"
+
+# reviews
+no_reviews_available: "Maaf, tidak ada ulasan yang tersedia untuk item ini."
