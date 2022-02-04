@@ -16,7 +16,7 @@
 
 - **Do not modify curly brackets and leave HTML tags like `<b>{}</b>` untouched, as acutebot is using Telegram's Bot API HTML formatting. Refer to their API Documentation [here](https://core.telegram.org/bots/api#html-style).**
 
-- **After you are finished, you can either make a Pull Request in this repo or can contact me on [Telegram](https://t.me/starryboi) with your translation file!**
+- **After you are finished, you can either make a Pull Request in this repo or can contact us on [Telegram](https://t.me/NeedHelpButYouCannotHelpMe) with your translation file!**
 
 <!-- > Why am I not using Crowdin or POEditor for this? -->
 
