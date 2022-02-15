@@ -157,7 +157,19 @@ news_help: |
 
   ‣ <em>Dapatkan liputan harian musik indie rock, hip-hop, elektronik, pop, metal, dan eksperimental di bagian <u>music news</u>.</em>
 
-reddit_help: ""
+reddit_help: |
+
+  <b>🗒️ Dokumentasi untuk fungsi terkait umpan Reddit:</b>
+
+  Dapatkan kiriman populer dari subreddit favorit Anda yang dikirimkan langsung ke obrolan Anda setiap jam atau pada interval yang Anda inginkan!
+
+  <b>‣</b> /redditsub : Berlangganan ke subreddit favorit Anda.
+
+  <b>‣</b> /redditunsub : Berhenti berlangganan untuk subreddit tertentu atau semua yang berlangganan.
+
+  <b>‣</b> /updatefreq : Perbarui interval posting untuk obrolan.
+
+  <b>Catatan:</b> Subreddit NSFW tidak diperbolehkan karena kami tidak ingin ada masalah dengan telegram, secara default jika Anda mencoba berlangganan beberapa bot subbreddit NSFW akan memberi tahu Anda bahwa sub tidak valid, jika Anda berlangganan subbreddit yang tidak ditandai NSFW oleh reddit, bot tetap tidak akan mengirim posting apa pun dari mereka jika posting tertentu itu ditandai NSFW.
 
 music_help: |
   <b>🗒️ Dokumentasi untuk fungsi terkait musik & lirik:</b>
@@ -312,15 +324,21 @@ filler_inline_message: "Klik tombol di bawah ini untuk melihat episode pengisi {
 no_reviews_available: "Maaf, tidak ada ulasan yang tersedia untuk item ini."
 
 # reddit subcriptions
-reddit_sub_entry: ""
-invalid_subreddit: ""
-max_subreddit_error: ""
-reddit_post_freq: ""
-invalid_post_freq: ""
-subreddit_sub_success: ""
-subreddit_unsub: ""
-no_subscribed_subs: ""
-subreddit_not_unsubbed: ""
-subreddit_unsub_success: ""
-current_reddit_freq: ""
-reddit_freq_update_success: ""
+reddit_sub_entry: |
+
+  Oke kirimkan saya nama subreddit yang ingin Anda langgan diikuti dengan spasi kosong, Anda bisa berlangganan hingga {} subreddis.
+
+  Contoh: <code>dankmemes goodanimemes animeart showerthoughts</code>
+invalid_subreddit: "Subreddit tidak valid terdeteksi! Harap periksa kembali berikut ini:{}"
+max_subreddit_error: "Uh oh! Anda hanya bisa berlangganan hingga {} subreddit untuk saat ini, silakan periksa kembali langganan Anda sebelumnya."
+reddit_post_freq: "Pada frekuensi berapa saya harus mengirim posting dari subreddit ini?"
+invalid_post_freq: "Frekuensi posting yang ditentukan tidak valid!"
+subreddit_sub_success: |
+   ✅ Selesai! Berhasil berlangganan ke subreddit berikut:{}
+   ⏰ Frekuensi Postingan: {}
+subreddit_unsub: "Daftar subreddit tempat Anda berlangganan, klik nama subreddit jika Anda ingin berhenti berlangganan dari subreddit tertentu, jika tidak, klik 'Unsubscribe all' untuk berhenti berlangganan dari semua subreddit."
+no_subscribed_subs: "Maaf! Sepertinya Anda belum berlangganan subreddit apa pun."
+subreddit_not_unsubbed: "Anda belum berlangganan atau sudah berhenti berlangganan dari subreddit ini."
+subreddit_unsub_success: "Berhasil berhenti berlangganan dari {}!"
+current_reddit_freq: "Klik tombol di bawah untuk menyetel frekuensi yang Anda inginkan.\n\n⏰ Frekuensi saat ini: {}"
+reddit_freq_update_success: "Berhasil memperbarui frekuensi obrolan ke: {}!"
