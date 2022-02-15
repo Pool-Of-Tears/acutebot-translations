@@ -104,6 +104,7 @@ about_str: |
 # Help
 help_str: |
   per favore clicca su uno dei pulsanti qui sotto per vedere che cosa fanno.
+
 movie_help: |
   <b>🗒️ come usare le funzioni riguardanti Film e Serie TV:</b>
 
@@ -118,6 +119,7 @@ movie_help: |
   <b>‣</b> /trendingtv : come sopra ma per serie TV!
 
   <b>‣</b> /collection : raccogli i tuoi film visti, eg: The Avengers.
+
 anime_help: |
   <b>🗒️ come usare le funzioni riguardanti Anime:</b>
 
@@ -136,7 +138,10 @@ anime_help: |
   <b>‣</b> /fillers : Ottieni un elenco di episodi di riempimento per un determinato anime.
 
   <b>‣</b> /streamlink : Trova link di streaming per i tuoi anime preferiti.
-news_help: |
+
+news_help: ""
+
+reddit_help: ""
 
 music_help: |
   <b>🗒️ come usare le funzioni riguardanti musica e testi:</b>
@@ -152,8 +157,6 @@ misc_help: |
   <b>‣</b> /mquote : Ottieni fantastiche citazioni di film di supereroi.
 
   <b>‣</b> /aquote : Come sopra ma per citazioni relative agli anime.
-
-  <b>‣</b> /reddit : Scarica i tuoi memini rubati da subreddit popolari.
 
   <b>‣</b> /subtitle : Download sottotitoli per i tuoi film.
 
@@ -290,3 +293,17 @@ filler_inline_message: ""
 
 # reviews
 no_reviews_available: ""
+
+# reddit subcriptions
+reddit_sub_entry: ""
+invalid_subreddit: ""
+max_subreddit_error: ""
+reddit_post_freq: ""
+invalid_post_freq: ""
+subreddit_sub_success: ""
+subreddit_unsub: ""
+no_subscribed_subs: ""
+subreddit_not_unsubbed: ""
+subreddit_unsub_success: ""
+current_reddit_freq: ""
+reddit_freq_update_success: ""

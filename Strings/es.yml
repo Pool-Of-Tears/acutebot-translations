@@ -106,6 +106,7 @@ about_str: |
 # Help
 help_str: |
   Por favor clickea en los botones debajo para obtener documentación para las funciones relacionadas.
+
 movie_help: |
   <b>🗒️ Documentación para funciones relacionadas con Películas y TV:</b>
 
@@ -120,6 +121,7 @@ movie_help: |
   <b>‣</b> /trendingtv : ¡Lo mismo de encima pero para shows de televisión!
 
   <b>‣</b> /collection : Obtén todas las películas en una colección, ej: Los Vengadores.
+
 anime_help: |
   <b>🗒️ Documentación para funciones relacionadas con Anime y Manga:</b>
 
@@ -138,6 +140,7 @@ anime_help: |
   <b>‣</b> /fillers : Obtén una lista de episodios de relleno para un anime determinado.
 
   <b>‣</b> /streamlink : Obtén links de transmisión de tus títulos de anime favoritos.
+
 news_help: |
   <b>🗒️ Documentación para funciones relacionadas con feeds de noticias:</b>
 
@@ -153,6 +156,9 @@ news_help: |
   ‣ <em>Mantente al tanto con noticias y hechos de tus series anime favoritas en la sección <u>noticias de anime</u>.</em>
 
   ‣ <em>Obtén cobertura diaria de indie rock, hip-hop, electrónica, pop, metal,y música experimental en la sección <u>noticias de música</u>.</em>
+
+reddit_help: ""
+
 music_help: |
   <b>🗒️ Documentación para funciones relacionadas con música y letras:</b>
 
@@ -161,14 +167,13 @@ music_help: |
   <b>‣</b> /nowplaying : Dobla tu corriente o última canción reproducida en Spotify.
 
   <b>Notes</b> : ¡También puedes doblar tú track actual de Spotify en cualquier chat solo usándome inline! solo haz <code>@acutebot .nowplaying</code>.
+
 misc_help: |
   <b>🗒️ ¡Documentación para algunos comandos misceláneos que no encajan en ninguna parte!</b>
 
   <b>‣</b> /mquote : Obtén frases aleatorias de superhéroes de películas de una colección escogida a mano.
 
   <b>‣</b> /aquote : ¡Lo mismo que encima pero para frases relacionadas con anime!
-
-  <b>‣</b> /reddit : Te obtiene memes aleatorios adorablemente desguazados de subreddits populares.
 
   <b>‣</b> /subtitle : Descarga subtítulos para tus películas favoritas.
 
@@ -305,3 +310,17 @@ filler_inline_message: ""
 
 # reviews
 no_reviews_available: ""
+
+# reddit subcriptions
+reddit_sub_entry: ""
+invalid_subreddit: ""
+max_subreddit_error: ""
+reddit_post_freq: ""
+invalid_post_freq: ""
+subreddit_sub_success: ""
+subreddit_unsub: ""
+no_subscribed_subs: ""
+subreddit_not_unsubbed: ""
+subreddit_unsub_success: ""
+current_reddit_freq: ""
+reddit_freq_update_success: ""

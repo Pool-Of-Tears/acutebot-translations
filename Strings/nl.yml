@@ -111,6 +111,7 @@ about_str: |
 # Help
 help_str: |
   Gebruik de knoppen hieronder om informatie te krijgen over alle functies.
+
 movie_help: |
   <b>🗒️ Documentatie voor Films & Series gerelateerde functies:</b>
 
@@ -125,6 +126,7 @@ movie_help: |
   <b>‣</b> /trendingtv : Bekijk trending series van vandaag of deze week.
 
   <b>‣</b> /collection : Bekijk alle films in een collectie, bijv: The Avengers.
+
 anime_help: |
   <b>🗒️ Documentatie voor Anime & Manga gerelateerde functies:</b>
 
@@ -143,6 +145,7 @@ anime_help: |
   <b>‣</b> /fillers : Krijg een lijst van filler episodes van een bepaalde anime.
 
   <b>‣</b> /streamlink : Krijg streaming links voor je favoriete anime.
+
 news_help: |
   <b>🗒️ Documentatie voor nieuwsberichten gerelateerde functies:</b>
 
@@ -158,6 +161,9 @@ news_help: |
   ‣ <em>Nieuws en feiten over je favoriete anime series in de <u>anime nieuws</u> sectie.</em>
 
   ‣ <em>Dagelijks verslag van indie rock, hip-hop, electronisch, pop, metal, en experimentele muziek in de <u>muzieknieuws</u> sectie.</em>
+
+reddit_help: ""
+
 music_help: |
   <b>🗒️ Documentatie voor Muziek & Lyrics gerelateerde functies:</b>
 
@@ -166,14 +172,13 @@ music_help: |
   <b>‣</b> /nowplaying : Bekijk wat je nu luistert in Spotify.
 
   <b>Tip</b> : Laat aan iedereen zien wat je nu luistert door mij inline te gebruiken! Type gewoon <code>@acutebot .nowplaying</code> in een willekeurige chat.
+
 misc_help: |
   <b>🗒️ Documentatie voor overige commando’s die niet een categorie passen</b>
 
   <b>‣</b> /mquote : Krijg random handmatig geselecteerde superhelden quotes.
 
   <b>‣</b> /aquote : Hetzelfde als hierboven maar voor anime gerelateerde quotes!
-
-  <b>‣</b> /reddit : Krijg random memes van populaire subreddits.
 
   <b>‣</b> /subtitle : Download ondertitels van je favoriete films.
 
@@ -326,3 +331,17 @@ filler_inline_message: "Klik op de knop hieronder om filler episodes te zien van
 
 # reviews
 no_reviews_available: ""
+
+# reddit subcriptions
+reddit_sub_entry: ""
+invalid_subreddit: ""
+max_subreddit_error: ""
+reddit_post_freq: ""
+invalid_post_freq: ""
+subreddit_sub_success: ""
+subreddit_unsub: ""
+no_subscribed_subs: ""
+subreddit_not_unsubbed: ""
+subreddit_unsub_success: ""
+current_reddit_freq: ""
+reddit_freq_update_success: ""

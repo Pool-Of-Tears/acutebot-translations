@@ -106,6 +106,7 @@ about_str: |
 # Help
 help_str: |
   Silakan klik tombol di bawah ini untuk mendapatkan dokumentasi untuk fungsi terkait.
+
 movie_help: |
   <b>🗒️ Dokumentasi untuk fungsi terkait Film & TV:</b>
 
@@ -120,6 +121,7 @@ movie_help: |
   <b>‣</b> /trendingtv : Sama seperti di atas tetapi untuk acara TV!
 
   <b>‣</b> /collection : Mendapatkan semua film dalam koleksi, contoh: The Avengers.
+
 anime_help: |
   <b>🗒️ Dokumentasi untuk fungsi terkait Anime & Manga:</b>
 
@@ -138,6 +140,7 @@ anime_help: |
   <b>‣</b> /fillers : Dapatkan daftar episode pengisi untuk anime yang diberikan.
 
   <b>‣</b> /streamlink : Dapatkan tautan streaming untuk judul anime favorit Anda.
+
 news_help: |
   <b>🗒️ Dokumentasi untuk fungsi terkait umpan berita:</b>
 
@@ -153,6 +156,9 @@ news_help: |
   ‣ <em>Ikuti terus berita dan fakta anime dari serial anime favorit Anda di bagian <u> anime news</u>.</em>
 
   ‣ <em>Dapatkan liputan harian musik indie rock, hip-hop, elektronik, pop, metal, dan eksperimental di bagian <u>music news</u>.</em>
+
+reddit_help: ""
+
 music_help: |
   <b>🗒️ Dokumentasi untuk fungsi terkait musik & lirik:</b>
 
@@ -161,14 +167,13 @@ music_help: |
   <b>‣</b> /nowplaying : Memamerkan lagu yang saat ini atau yang terakhir anda putar di spotify.
 
   <b>Catatan</b> : Anda juga dapat memamerkan trek yang sedang anda putar dalam obrolan mana pun dengan menggunakan inline saya! lakukan saja <code>@acutebot .nowplaying</code>.
+
 misc_help: |
   <b>🗒️ Dokumentasi untuk beberapa perintah lainnya yang tidak muat di mana pun!</b>
 
   <b>‣</b> /mquote : Dapatkan kutipan film superhero acak dari koleksi yang dipilih sendiri.
 
   <b>‣</b> /aquote : Sama seperti di atas tetapi untuk kutipan terkait anime!
-
-  <b>‣</b> /reddit : Memberikan Anda meme acak dari subreddit populer.
 
   <b>‣</b> /subtitle : Mengunduh terjemahan untuk film favorit Anda.
 
@@ -305,3 +310,17 @@ filler_inline_message: "Klik tombol di bawah ini untuk melihat episode pengisi {
 
 # reviews
 no_reviews_available: "Maaf, tidak ada ulasan yang tersedia untuk item ini."
+
+# reddit subcriptions
+reddit_sub_entry: ""
+invalid_subreddit: ""
+max_subreddit_error: ""
+reddit_post_freq: ""
+invalid_post_freq: ""
+subreddit_sub_success: ""
+subreddit_unsub: ""
+no_subscribed_subs: ""
+subreddit_not_unsubbed: ""
+subreddit_unsub_success: ""
+current_reddit_freq: ""
+reddit_freq_update_success: ""
