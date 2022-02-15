@@ -153,6 +153,18 @@ news_help: |
   ‣ <em>Keep up with anime news and facts from your favorite anime series in <u> anime news</u> section.</em>
 
   ‣ <em>Get daily coverage of indie rock, hip-hop, electronic, pop, metal, and experimental music in <u>music news</u> section.</em>
+reddit_help: |
+  <b>🗒️ Documentation for Reddit feeds related functions:</b>
+
+  Get hot posts from your favourite subreddits delivered directly into your chat every hour or at your desired interval! 
+
+  <b>‣</b> /redditsub : Subscribe to your favourite subreddits.
+
+  <b>‣</b> /redditunsub : Unsubscribe for particular or all subscribed subreddits.
+
+  <b>‣</b> /updatefreq : Update posting interval for the chat.
+
+  <b>Note:</b> NSFW subreddits are not allowed since we don't want to have any problems with telegram, by default if you try to subscribe some NSFW subbreddit bot will tell you that sub is invalid, if you subscribe to a subbreddit which isn't flagged NSFW by reddit, bot will still not send any posts from them if that particular post is marked NSFW.
 music_help: |
   <b>🗒️ Documentation for music & lyrics related functions:</b>
 
@@ -167,8 +179,6 @@ misc_help: |
   <b>‣</b> /mquote : Get random superhero movie quotes from handpicked collection.
 
   <b>‣</b> /aquote : Same as above but for anime related quotes!
-
-  <b>‣</b> /reddit : Gets you random memes scraped from popular subreddits.
 
   <b>‣</b> /subtitle : Download subtitles for your favorite movies.
 
@@ -305,3 +315,22 @@ filler_inline_message: "Click the button below to view filler episodes of {}"
 
 # reviews
 no_reviews_available: "Sorry, no reviews available for this item."
+
+# reddit subcriptions
+reddit_sub_entry: |
+   Okay send me name of subreddits you wanna subscribe to followed by blank space, you can subscribe upto {} subreddis.
+
+   Example: <code>dankmemes goodanimemes animeart showerthoughts</code>
+invalid_subreddit: "Invalid subreddit detected! Please recheck the following:{}"
+max_subreddit_error: "Uh oh! you can only subscribe upto {} subreddit for now, please re-check your previous subscriptions."
+reddit_post_freq: "At which frequency should i send posts from these subreddits?"
+invalid_post_freq: "Invalid post frequency specified!"
+subreddit_sub_success: |
+   ✅ Done! Successfully subscribed to the following subreddits:{}
+   ⏰ Post Frequency: {}
+subreddit_unsub: "List of subreddits you're currently subscribed to, click on the name of subreddit if you want to unsubscribe from particular subreddit else click on 'Unsubscribe all' to unsubscribe from all subreddits."
+no_subscribed_subs: "Sorry! It seems you've not subscribed to any subreddits yet."
+subreddit_not_unsubbed: "You're not subscribed or already unsubscribed from this subreddit."
+subreddit_unsub_success: "Successfully unsubscribed from {}!"
+current_reddit_freq: "Click on button below to set your desired frequency.\n\n⏰ Current frequency: {}"
+reddit_freq_update_success: "Successfully updated chat frequency to: {}!"
