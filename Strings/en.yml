@@ -106,6 +106,7 @@ about_str: |
 # Help
 help_str: |
   Please click on the buttons below to get documentations for the related functions.
+
 movie_help: |
   <b>🗒️ Documentation for Movies & TV related functions:</b>
 
@@ -120,6 +121,7 @@ movie_help: |
   <b>‣</b> /trendingtv : Same as above but for TV shows!
 
   <b>‣</b> /collection : Get all movies in a collection, eg: The Avengers.
+
 anime_help: |
   <b>🗒️ Documentation for Anime & Manga related functions:</b>
 
@@ -138,6 +140,7 @@ anime_help: |
   <b>‣</b> /fillers : Get list of filler episodes for the given anime.
 
   <b>‣</b> /streamlink : Get streaming links for your favorite anime titles.
+
 news_help: |
   <b>🗒️ Documentation for news feeds related functions:</b>
 
@@ -153,6 +156,7 @@ news_help: |
   ‣ <em>Keep up with anime news and facts from your favorite anime series in <u> anime news</u> section.</em>
 
   ‣ <em>Get daily coverage of indie rock, hip-hop, electronic, pop, metal, and experimental music in <u>music news</u> section.</em>
+
 reddit_help: |
   <b>🗒️ Documentation for Reddit feeds related functions:</b>
 
@@ -165,6 +169,7 @@ reddit_help: |
   <b>‣</b> /updatefreq : Update posting interval for the chat.
 
   <b>Note:</b> NSFW subreddits are not allowed since we don't want to have any problems with telegram, by default if you try to subscribe some NSFW subbreddit bot will tell you that sub is invalid, if you subscribe to a subbreddit which isn't flagged NSFW by reddit, bot will still not send any posts from them if that particular post is marked NSFW.
+
 music_help: |
   <b>🗒️ Documentation for music & lyrics related functions:</b>
 
@@ -172,7 +177,12 @@ music_help: |
 
   <b>‣</b> /nowplaying : Flex you currently or last played song in spotify.
 
+  <b>‣</b> /history : View and share your last fifty played tracks on Spotify.
+
+  <b>‣</b> /sptlogout : Logout from your Spotify account.
+
   <b>Notes</b> : You can also flex your nowplaying track in any chat by using me inline! just do <code>@acutebot .nowplaying</code>.
+
 misc_help: |
   <b>🗒️ Documentation for some miscs command which don't fit anywhere!</b>
 
@@ -259,6 +269,9 @@ spt_login: |
   We respect user's privacy & will never store or use any of your data for wrong purpose!
 spt_login_pm: "Please contact me in PM to login with your spotify account, inorder to use this feature."
 spt_already_logged: "Looks like you've already logged-in!"
+spt_not_logged_in: "You're not logged in with Spotify at this moment."
+spt_logout_success: "Successfully logged out from your Spotify account; Please note that this only deletes your account data from bot's database, to remove complete access click on the link below, find acutebot in list of authorised apps and click on 'remove access'."
+spt_song_history_error: "Woops! failed to get information about your recently played tracks."
 
 # Anime-Stream
 anime_streaming_results: "search results for <b>{}</b>, Click on button below to get streaming links and start streaming..."
