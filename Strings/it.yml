@@ -150,6 +150,10 @@ music_help: |
 
   <b>‣</b> /nowplaying : Flexa la cosa stai riproducendo (o l'ultima canzone riprodotta) da spotify
 
+  <b>‣</b> /history : Visualizza e condividi i tuoi ultimi cinquanta brani riprodotti su Spotify.
+
+  <b>‣</b> /sptlogout : Esci dal tuo account Spotify.
+
   <b>Notes</b> : Puoi anche flexare la tua riproduzinoe attuale in qualsiasi chat con la modalità inline! ti basta scrivere <code>@acutebot .nowplaying</code>.
 misc_help: |
   <b>🗒️ alcuni comandi che non hanno una categoria precisa!</b>
@@ -237,6 +241,9 @@ spt_login: |
   Rispettiamo la privacy dell'utente, e per questa non conserviamo nessun tuo dato !
 spt_login_pm: "Per favore contattami in modo provato per loggarti con il tuo account spotify per usare questa funzione"
 spt_already_logged: "Sembra che sei già entrato con il tuo account di spotify!"
+spt_not_logged_in: ""
+spt_logout_success: ""
+spt_song_history_error: ""
 
 # Anime-Stream
 anime_streaming_results: "Risultati per <b>{}</b>, Premi il pulsate sotto per iniziare a streammare.."

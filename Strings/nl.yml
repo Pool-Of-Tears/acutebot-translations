@@ -171,6 +171,10 @@ music_help: |
 
   <b>‣</b> /nowplaying : Bekijk wat je nu luistert in Spotify.
 
+  <b>‣</b> /history : Bekijk en deel je laatste vijftig afgespeelde nummers op Spotify.
+
+  <b>‣</b> /sptlogout : Log uit van uw Spotify-account.
+
   <b>Tip</b> : Laat aan iedereen zien wat je nu luistert door mij inline te gebruiken! Type gewoon <code>@acutebot .nowplaying</code> in een willekeurige chat.
 
 misc_help: |
@@ -275,6 +279,9 @@ spt_login: |
   Wij respecteren de privacy van onze gebruikers, je data wordt niet opgeslagen of gebruikt voor verkeerde doeleinden!
 spt_login_pm: "Neem contact op in privé om in te loggen bij je Spotify account, om deze functie te gebruiken."
 spt_already_logged: "Je bent al ingelogd!"
+spt_not_logged_in: ""
+spt_logout_success: ""
+spt_song_history_error: ""
 
 # Anime-Stream
 anime_streaming_results: "Zoekresultaten voor <b>{}</b>. Klik de knop hieronder om streaming links te bekijken en te beginnen met streamen…"

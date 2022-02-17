@@ -178,6 +178,10 @@ music_help: |
 
   <b>‣</b> /nowplaying : Memamerkan lagu yang saat ini atau yang terakhir anda putar di spotify.
 
+  <b>‣</b> /history : Lihat dan bagikan lima puluh lagu terakhir Anda yang diputar di Spotify.
+
+  <b>‣</b> /sptlogout : Keluar dari akun Spotify Anda.
+
   <b>Catatan</b> : Anda juga dapat memamerkan trek yang sedang anda putar dalam obrolan mana pun dengan menggunakan inline saya! lakukan saja <code>@acutebot .nowplaying</code>.
 
 misc_help: |
@@ -266,6 +270,9 @@ spt_login: |
   Kami menghormati privasi pengguna & tidak akan pernah menyimpan atau menggunakan data Anda untuk tujuan yang salah!
 spt_login_pm: "Silakan hubungi saya di PM untuk login dengan akun spotify Anda, untuk menggunakan fitur ini."
 spt_already_logged: "Sepertinya Anda sudah masuk ke akun anda!"
+spt_not_logged_in: ""
+spt_logout_success: ""
+spt_song_history_error: ""
 
 # Anime-Stream
 anime_streaming_results: "Hasil penelusuran untuk <b>{}</b>, Klik tombol di bawah ini untuk mendapatkan tautan streaming dan mulai streaming..."

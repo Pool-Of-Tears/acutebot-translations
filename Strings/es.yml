@@ -166,6 +166,10 @@ music_help: |
 
   <b>‣</b> /nowplaying : Dobla tu corriente o última canción reproducida en Spotify.
 
+  <b>‣</b> /history : Vea y comparta sus últimas cincuenta pistas reproducidas en Spotify.
+
+  <b>‣</b> /sptlogout : Sal de tu cuenta de Spotify.
+
   <b>Notes</b> : ¡También puedes doblar tú track actual de Spotify en cualquier chat solo usándome inline! solo haz <code>@acutebot .nowplaying</code>.
 
 misc_help: |
@@ -254,6 +258,9 @@ spt_login: |
   ¡Nosotros respetamos la privacidad del usuario y nunca guardaremos o usaremos alguno de tus datos para propósitos incorrectos!
 spt_login_pm: "Por favor contáctame en PM para entrar con tu cuenta de Spotify, así podrás hacer uso de esta característica."
 spt_already_logged: "¡Parece que ya has entrado a tu cuenta de Spotify!"
+spt_not_logged_in: ""
+spt_logout_success: ""
+spt_song_history_error: ""
 
 # Anime-Stream
 anime_streaming_results: "Resultados de búsqueda para <b>{}</b>, Clickea el botón debajo para obtener links de transmisión y empezar la transmisión..."
