@@ -270,9 +270,9 @@ spt_login: |
   Kami menghormati privasi pengguna & tidak akan pernah menyimpan atau menggunakan data Anda untuk tujuan yang salah!
 spt_login_pm: "Silakan hubungi saya di PM untuk login dengan akun spotify Anda, untuk menggunakan fitur ini."
 spt_already_logged: "Sepertinya Anda sudah masuk ke akun anda!"
-spt_not_logged_in: ""
-spt_logout_success: ""
-spt_song_history_error: ""
+spt_not_logged_in: "Kamu tidak masuk dengan Spotify saat ini."
+spt_logout_success: "Berhasil keluar dari akun Spotify Anda; Harap dicatat bahwa ini hanya menghapus data akun Anda dari basis data bot, untuk menghapus akses lengkap, klik tautan di bawah ini, temukan acutebot dalam daftar aplikasi resmi dan klik 'remove access'."
+spt_song_history_error: "Woops! gagal mendapatkan informasi tentang trek yang baru saja diputar."
 
 # Anime-Stream
 anime_streaming_results: "Hasil penelusuran untuk <b>{}</b>, Klik tombol di bawah ini untuk mendapatkan tautan streaming dan mulai streaming..."
