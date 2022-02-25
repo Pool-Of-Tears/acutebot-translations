@@ -80,7 +80,7 @@ inline_anime_str: |
 
 # Start
 start_string: |
-  Hey {}, I'm {} and i can help you to get information about your favorite Movies, TV, Anime shows and lot more related stuffs!
+  Hey {}, I'm {} and i can help you to get information about your favorite Anime, Manga, Movies, TVshows and lot of other related stuffs!
 
   I can also let you to view lyrics of your favourite songs and share your currently playing track on spotify with your friends.
   Just click the <i>help</i> button below to get started with list of possible commands.
@@ -168,7 +168,7 @@ reddit_help: |
 
   <b>‣</b> /updatefreq : Update posting interval for the chat.
 
-  <b>Note:</b> NSFW subreddits are not allowed since we don't want to have any problems with telegram, by default if you try to subscribe some NSFW subbreddit bot will tell you that sub is invalid, if you subscribe to a subbreddit which isn't flagged NSFW by reddit, bot will still not send any posts from them if that particular post is marked NSFW.
+  <b>Note:</b> NSFW subreddits are not allowed since we don't want to have any problems with telegram, by default if you try to subscribe some NSFW subreddit, bot will tell you that sub is invalid, if you subscribe to a subbreddit which isn't flagged NSFW by reddit, bot will still not send any posts from them which are marked NSFW.
 
 music_help: |
   <b>🗒️ Documentation for music & lyrics related functions:</b>
@@ -181,7 +181,7 @@ music_help: |
 
   <b>‣</b> /sptlogout : Logout from your Spotify account.
 
-  <b>Notes</b> : You can also flex your nowplaying track in any chat by using me inline! just do <code>@acutebot .nowplaying</code>.
+  <b>Note</b> : You can also flex your nowplaying track in any chat by using me inline! just do <code>@acutebot .nowplaying</code>.
 
 misc_help: |
   <b>🗒️ Documentation for some miscs command which don't fit anywhere!</b>
